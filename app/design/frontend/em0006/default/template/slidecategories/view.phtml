@@ -1,0 +1,27 @@
+<?php if($this->getStoreCategories()):?>
+<div class="slideshow-wrapper">
+		<div class="slideshow-wrapper-inner">
+			<div id="slideshow" class="slideshow">
+				<div class="slideshow-box">
+					 <ul>
+                                <?php 
+									foreach ($this->getStoreCategories() as $_item)
+									{
+										$cur_category=Mage::getModel('catalog/category')->load($_item->getId());
+										if($cur_category->getImageUrl()){
+											?>
+										<li><a href="<?php echo $this->getCategoryUrl($cur_category)?>"><img height="51" src="<?php echo $cur_category->getImageUrl();?>" alt="<?php echo $cur_category->getName()?>" /></a></li>
+										<?php 
+										}
+									}
+									
+									?>
+                                    
+                              </ul>
+				</div>
+				<a href="#" class="previous">Previous</a>
+				<a href="#" class="next">Next</a>
+			</div>
+		</div>
+	</div>
+<?php endif;?>

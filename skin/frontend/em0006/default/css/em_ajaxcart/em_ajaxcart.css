@@ -1,0 +1,11 @@
+#bg_fade {background-color:#000;left:0px;margin:0px;padding:0px;position:fixed;top:0px;visibility:hidden;width:100%;z-index:998;height:1000px}
+#containerDiv {width:400px;z-index: 999; left:40% !important; top:40% !important;position:fixed;}
+#containerDiv .ajaxcart {position: relative;padding: 20px;text-align: center;border: 10px solid #EAE9E6;background-color: white;z-index: 99999;  overflow:hidden;}
+#containerDiv .ajaxcart .row2 {clear:left;}
+#containerDiv .ajaxcart #ajax_image img {float:left;margin-right:7px;}
+#containerDiv .ajaxcart #ajax_image  { margin-bottom: 10px;overflow: hidden;text-align: left;}
+#containerDiv .ajaxcart #ajax_image span {text-align:left;}
+#containerDiv .ajaxcart .row2 a {  color: #D2EEFF;display: inline-block;text-align: center;white-space: nowrap; text-decoration: none; cursor:pointer;  margin:5px 0 0 15px; background:url(../../images/btn_addtocart.gif) 0 0 no-repeat; font:11px/21px Tahoma,Verdana,Arial,sans-serif;height: 30px;padding:0 0 0 7px;text-transform: uppercase; }
+#containerDiv .ajaxcart .row2 a:first-child{ margin-left:0;}
+#containerDiv .ajaxcart .row2 a span { border: 0 none; padding:0px 15px 0 3px;display: inline-block; background:url(../../images/btn_addtocart.gif) right 100% no-repeat; height:30px; line-height:30px; }
+.product-essential {position:relative;}

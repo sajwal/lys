@@ -1,0 +1,74 @@
+<div class="review-form-head">
+<h4><?php echo $this->__('Tell us what you think about this product?') ?></h4>
+</div>
+
+    <?php if ($this->getAllowWriteReviewFlag()): ?>
+        <form action="<?php echo $this->getAction() ?>" method="post" id="review-form">
+     <?php echo $this->getChildHtml('form_fields_before')?>
+<div class="lys-reviews">     
+    
+<div>     
+<label>Full Name</label>
+<p>
+<input type="text" name="nickname" id="nickname_field" class="input-text required-entry" value="<?php echo $this->htmlEscape($data->getNickname()) ?>"/>
+</p>
+<input type="hidden" name="title" id="summary_field" class="input-text required-entry" value="Summary is disabled" />
+</div>
+
+
+<div>
+<label>Your Review</label>
+<p>
+<textarea name="detail" id="review_field" cols="" rows="3" class="required-entry" style="resize:none"><?php echo $this->htmlEscape($data->getDetail()) ?></textarea>
+</p>
+</div>
+
+  <button type="submit" title="<?php echo $this->__('Submit Review') ?>" class="otob"><span><span><?php echo $this->__('Submit Review') ?></span></span></button>
+
+<p style="padding-bottom:10px;"></p>
+     
+</div>
+
+
+     </form>
+  
+<script type="text/javascript">
+    //<![CDATA[
+        var dataForm = new VarienForm('review-form');
+        Validation.addAllThese(
+        [
+               ['validate-rating', '<?php echo $this->__('Please select one of each of the ratings above') ?>', function(v) {
+                    var trs = $('product-review-table').select('tr');
+                    var inputs;
+                    var error = 1;
+    
+                    for( var j=0; j < trs.length; j++ ) {
+                        var tr = trs[j];
+                        if( j > 0 ) {
+                            inputs = tr.select('input');
+    
+                            for( i in inputs ) {
+                                if( inputs[i].checked == true ) {
+                                    error = 0;
+                                }
+                            }
+    
+                            if( error == 1 ) {
+                                return false;
+                            } else {
+                                error = 1;
+                            }
+                        }
+                    }
+                    return true;
+                }]
+        ]
+        );
+    //]]>
+    </script>
+
+    <?php else: ?>
+    <p class="review-nologged" id="review-form">
+        <?php echo $this->__('Only registered users can write reviews. Please, <a href="%s">log in</a> or <a href="%s">register</a>', $this->getLoginLink(), Mage::helper('customer')->getRegisterUrl()) ?>
+    </p>
+    <?php endif ?>

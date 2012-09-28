@@ -1,0 +1,13 @@
+<?php if ($this->canApplyMsrp()): ?>
+    <div class="cart-msrp-totals"><?php echo $this->__('ORDER TOTAL WILL BE DISPLAYED BEFORE YOU SUBMIT THE ORDER'); ?></div>
+<?php else: ?>
+<div style="font-size:16px; margin-right:5px; float:right">
+<?php echo $this->renderTotals(); ?>
+</div>
+<div class="clearer"></div>
+<div id="totals" style="background:#006E9C; padding:10px; color:#fff !important; border-radius:10px; margin:5px 0px 10px 0px; font-size:16px; text-transform:uppercase">
+<?php echo $this->renderTotals('footer'); ?>  
+</div>
+<div class="clearer"></div>          
+          
+<?php endif; ?>

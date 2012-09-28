@@ -1,0 +1,27 @@
+<h3>Special Offers</h3>
+<ul class="newarrivals">
+<?php if (($_products = $this->getProductCollection()) && $_products->getSize()): ?>
+<?php $_columnCount = $this->getColumnCount(); ?>
+    <?php $i=0; foreach ($_products->getItems() as $_product): ?>
+        <?php if ($i++%$_columnCount==0): ?>
+
+        <?php endif ?>
+
+ <li>
+ <?php
+        // define the maximum length of the product name here
+        $maxLength = 20;
+        $productName =  $this->htmlEscape($_product->getName());        
+?>
+
+ 
+ <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><span style="color:#006d9b !important; text-transform:uppercase"><?php echo $_product->getAttributeText('manufacturer');?></span> - <?php echo substr($productName, 0, $maxLength); ?></a>
+ 
+ 
+ </li>
+
+ <?php if ($i%$_columnCount==0 || $i==count($_products)): ?>   
+        <?php endif ?>
+    <?php endforeach; ?>
+<?php endif; ?>
+ </ul>

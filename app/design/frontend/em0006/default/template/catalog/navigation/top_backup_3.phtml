@@ -1,0 +1,237 @@
+<style>
+a {
+	color: #333;
+}
+#navi {
+width:955px; margin:0 auto; /*padding:0 16px;*/ font-size:13px; height:20px
+
+ }
+#navi li {
+	margin: 0 0px;
+	padding: 0 0 0px;
+	float: left;
+	list-style: none;
+	z-index:5;
+
+
+}
+
+
+/* main level link */
+#navi a {
+	font-weight: bold;
+	color: #000;
+	text-decoration: none;
+	display: block;
+	padding:  5px 20px;
+	margin: 0;
+	text-transform:uppercase;
+
+}
+#navi a:hover {
+	background: #000;
+	color: #fff;
+}
+
+/* main level link hover */
+#navi .active a, #navi li:hover > a {
+	color:#E56608 !important;
+	background:url(<?php echo $this->getSkinUrl('images/bg_menu.png') ?>) left 0 no-repeat;
+	    background-position:100% 0;
+  /*  height:30px;*/
+
+}
+
+/* sub levels link hover */
+#navi ul li:hover a, #navi li:hover li a {
+	background: none;
+	border: none;
+	color: #FFFFFF;
+
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+}
+#navi ul a:hover {
+background: #e96707 url(img/gradient.png) repeat-x 0 -100px !important;
+color: #fff !important;
+-webkit-border-top-left-radius: 9px;
+-moz-border-radius-topleft: 9px;
+-webkit-border-top-right-radius: 9px;
+-moz-border-radius-topright: 9px;
+
+
+}
+
+/* dropdown */
+#navi li:hover > ul {
+	display: block;
+}
+
+
+
+
+/* level 2 list */
+#navi ul ul {
+	display: none;
+	margin: 0;
+	padding: 0;
+	width: 200px;
+	position: relative !important;
+	top: -30px;
+	left: 0px;
+	background: #e96707 url(img/gradient.png) repeat-x 0 0;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 0px 10px 10px 10px;
+	border-radius: 0px 10px 10px 10px;
+	z-index:999;
+}
+#navi ul li {
+	float: none;
+	margin-left: 40px;;
+	padding: 0;
+	width:160px;
+
+}
+
+#navi ul ul li {
+	float: none;
+	margin: 0;
+	padding: 0;
+	width:100px;
+}
+
+
+#navi ul a {
+	font-weight: normal;
+
+}
+
+/* level 3+ list */
+
+
+/* rounded corners of first and last link */
+#navi ul li:first-child > a {
+	-webkit-border-top-left-radius: 9px;
+	-moz-border-radius-topleft: 9px;
+
+	-webkit-border-top-right-radius: 9px;
+	-moz-border-radius-topright: 9px;
+}
+#navi ul li:last-child > a {
+	-webkit-border-bottom-left-radius: 9px;
+	-moz-border-radius-bottomleft: 9px;
+
+	-webkit-border-bottom-right-radius: 9px;
+	-moz-border-radius-bottomright: 9px;
+}
+
+/* clearfix */
+#navi:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+#navi {
+	display: inline-block;
+} 
+html[xmlns] #navi {
+	display: block;
+}
+ 
+* html #navi {
+	height: 1%;
+}
+
+#navi ul {
+display:none;
+background: #231f20;
+width:955px;
+z-index:998;
+position:absolute !important;
+top:130px;
+left:194px;
+padding-top:10px;
+
+}
+
+.lihead{
+color:#FFF;
+font-size:16px;
+font-weight:bold;
+margin-left:60px;
+}
+
+</style>
+</head>
+<body>
+<div class="nav-container">
+<ul id="navi">
+	<li class="active"><a href="#">Home</a></li>
+	<li><a href="#">Sport</a>
+		<ul>
+        <div style="margin-left:55px; font-size:16px; color:#FF6600; text-transform:uppercase">Select a Sport</div>
+			<li><a href="#">Athletics</a>
+				<ul>
+					<li><span class="lihead">Athletics</span></li>
+					<div style="background:#3C3">asdf</div>
+                    <li><a href="#">Badminton</a></li>
+					<li><a href="#">Basketball</a></li>
+					<li><a href="#">Boxing</a></li>
+                    <li><a href="#">Cricket</a></li>
+                    <li><a href="#">Fitness</a></li>
+                    <li><a href="#">Football</a></li>
+                    <li><a href="#">Golf</a></li>
+                    <li><a href="#">Hockey</a></li>
+                    <li><a href="#">Running</a></li>
+                    <li><a href="#">Roller Skating</a></li>
+                    <li><a href="#">Rugby</a></li>
+                    <li><a href="#">Squash</a></li>
+                    <li><a href="#">Table Tennis</a></li>
+                    <li><a href="#">Tennis </a></li>
+            
+					
+                </ul>
+			</li>
+			<li><a href="#">Badminton</a>
+				<ul>
+					<li><a href="#">Basketball</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Boxing</a></li>
+			<li><a href="http://bestwebgallery.com">Best Web Gallery</a></li>
+		</ul>
+	</li>
+	<li><a href="#">Multi-Levels</a>
+		<ul>
+			<li><a href="#">Team</a>
+				<ul>
+					<li><a href="#">Sub-Level Item</a></li>
+					<li><a href="#">Sub-Level Item</a>
+						<ul>
+							<li><a href="#">Sub-Level Item</a></li>
+							<li><a href="#">Sub-Level Item</a></li>
+							<li><a href="#">Sub-Level Item</a></li>
+						</ul>
+					</li>
+					
+					<li><a href="#">Sub-Level Item</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Sales</a></li>
+			<li><a href="#">Another Link</a></li>
+			<li><a href="#">Department</a>
+				<ul>
+					<li><a href="#">Sub-Level Item</a></li>
+					<li><a href="#">Sub-Level Item</a></li>
+					<li><a href="#">Sub-Level Item</a></li>
+				</ul>
+			</li>
+		</ul>
+	</li>	
+	<li><a href="#">About</a></li>
+	<li><a href="#">Contact Us</a></li>
+</ul>
+</div>

@@ -1,0 +1,50 @@
+<div class="clearer" style="margin-bottom:20px;"></div>
+ <div id="carousel_container">
+  
+    <div id='carousel_inner'> 
+    <div class="carousel_head"><?php echo $this->__('LYS Recommends') ?></div>           
+    <div id='left_scroll'><img src=<?php echo $this->getSkinUrl('images/icons/carousel_left.png') ?> /></div>
+     <?php if (($_products = $this->getProductCollection()) && $_products->getSize()): ?>
+<?php $_columnCount = $this->getColumnCount(); ?>
+            <ul id='carousel_ul'><?php $i=0; foreach ($_products->getItems() as $_product): ?>
+
+			<?php $maxLength = 20;
+			$productName =  $this->htmlEscape($_product->getName()); 
+			?>
+            <li style="line-height:1.2em;">
+                <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135) ?>" width="135" height="135" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" /></a>
+                <div>
+			
+                <h2 class="carousel_brand"><?php echo $_product->getAttributeText('manufacturer');?></h2>
+                <h3 class="carousel_name"><?php echo substr($productName, 0, $maxLength); ?></h3>
+                </div>
+              
+                <div style="text-align:center">
+                <?php 
+				$lys_price = $_product->getFinalPrice();
+				$sp_price =  $_product->getPrice();
+				
+				echo  '<div>LYS : Rs. '.number_format($lys_price,0).'</div>';     
+                if($lys_price != $sp_price){        
+                echo '<div style="text-decoration:line-through;">MRP : Rs. '.number_format($sp_price,0).'</div>';
+				}
+				
+				 $_finalPrice = $this->helper('tax')->getPrice($_product, $_product->getFinalPrice());
+          	     $_regularPrice = $this->helper('tax')->getPrice($_product, $_product->getPrice());
+            	 if ($_regularPrice != $_finalPrice):
+            	 $getpercentage = number_format($_finalPrice / $_regularPrice * 100, 2);
+            	 $finalpercentage = 100 - $getpercentage;     
+            	 echo '<h2 class="carousel_saleprice">You Save '.number_format($finalpercentage, 0).'%</h2>' ;     
+           		 endif;
+ 
+				?></div>
+               
+            </li>
+ 
+ 
+    <?php endforeach; ?>      </ul>
+<?php endif; ?>
+    </div>
+  <div id='right_scroll'><img src=<?php echo $this->getSkinUrl('images/icons/carousel_right.png') ?> /></div>
+  </div>
+

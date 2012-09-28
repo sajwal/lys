@@ -1,0 +1,51 @@
+<?php $_menu = $this->renderCategoriesMenuHtml(0,'level-top') ?>
+
+
+<div class="lys_navigation_wrapper">
+
+
+<div class="lys_row1_container">
+
+
+<div class="lys_navigation_container">
+
+<?php if($_menu): ?>
+<!-- Home Link -->
+<div>
+<a href="<?php echo $this->getUrl();?>"><img class="homeicon" src="<?php echo($this->getSkinUrl('images/icons/home.png')) ?>" width="17" height="16" /></a>  
+</div>
+
+
+<!-- Navigation -->
+<div class="nav-container">
+<ul id="nav" style="float:left"> 
+<?php
+$uri = $_SERVER['REQUEST_URI'];
+$pieces = explode("/", $uri);
+$uri_3 = $pieces[3];
+
+if($uri_3 == "special-orders"){
+$active ="active";
+}else{
+$active ="";
+}
+
+
+?>
+
+ <?php echo $_menu; ?>
+     	<li id="level-top" class="level0 nav-1  level-top first parent">    	
+		<a class="level-top" href="http://trainingcenter.liveyoursport.com" id=""><span class="">Training Centre</span></a></li>
+        
+         <li id="level-top" class="level0 nav-1 <?php echo $active ?> level-top first parent">    	
+		<a class="level-top" href="/index.php/special-orders" id=""><span class="">Special Orders</span></a></li>
+</ul>
+</div>
+<?php endif ?>
+</div>
+</div>
+</div>
+<div class="clearer">
+
+
+

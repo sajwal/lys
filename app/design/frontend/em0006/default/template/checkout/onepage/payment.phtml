@@ -1,0 +1,144 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2011 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<div class="cod_limit_warning" style="display:none;text-align:center">
+<span style="font-weight:bold;color:red;margin:10px;font-size:20px;">!</span>
+We are sorry, but Cash On Delivery(COD) is available only for <br/>
+purchases up to Rs.10000<br/>
+<button class="indibutton" style="margin-right:31%" onclick="javascript:destroyCod();">Close</button>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+    var quoteBaseGrandTotal = <?php echo (float)$this->getQuoteBaseGrandTotal(); ?>;
+    var checkQuoteBaseGrandTotal = quoteBaseGrandTotal;
+    var payment = new Payment('co-payment-form', '<?php echo $this->getUrl('checkout/onepage/savePayment') ?>');
+    var lastPrice;
+	var cashondelivery_max_limit = 10000;
+//]]>
+</script>
+<div style="float:left">
+<form action="" id="co-payment-form">
+    <fieldset>
+        <?php echo $this->getChildHtml('methods') ?>
+    </fieldset>
+    
+</form>
+</div>
+<div class="payments_info_container">
+
+
+<div id="avenue">
+
+<ul>
+<li class="creditcard">
+<h2>Credit Card</h2>
+<p>Credit Card is a payment card issued to users as a system of payment. It allows the cardholder to pay for goods and services based on the holder's promise to pay for them.</p>
+</li>
+
+
+<li class="debitcard">
+<h2>Debit Card</h2>
+<p>Debit Card (also known as a bank card or check card) is a plastic card that provides an alternative payment method to cash when making purchases.</p>
+</li>
+
+
+<li class="cashcards">
+<h2>Cash Cards</h2>
+<p>Cash Card is prepaid cash card that comes in variable denominations that individuals can use to pay for all types of products and services online easily. Anyone can purchase a Cash Card from the Shop-Round-The-Corner and use it to begin transacting online.</p>
+</li>
+
+
+<li class="mobilebanking">
+<h2>Mobile Payments</h2>
+<p>Mobile payment, also referred to as mobile money, mobile banking, mobile money transfer, and mobile wallet generally refer to payment services operated under financial regulation and performed from or via a mobile device.</p>
+</li>
+
+<li class="netbanking">
+<h2>Net Banking</h2>
+<p>Online banking (or Internet banking or E-banking) allows customers of a financial institution to conduct financial transactions on a secure website operated by the institution, which can be a retail or virtual bank, credit union or building society.It may include of any transactions related to online usage</p>
+</li>
+</ul>
+</div>
+
+
+<div id="cash">
+<ul>
+<li class="cod">
+<h2>Cash on Delivery</h2>
+<h4 style="color:#000">Thank you for choosing to pay by Cash On Delivery (COD).Please note Rs.60 will be added to your bill for this service.</h4>
+<p>Collect on delivery (COD) is a financial transaction where the payment of products and/or services received is done at the time of actual delivery rather than paid-for in advance. </p>
+</li>
+</ul>
+</div>
+
+
+
+
+<div class="buttons-set" id="payment-buttons-container" style="margin-top:10px; margin-right:30px; float:right">
+
+    <p class="back-link"><a href="#" onclick="checkout.back(); return false;"><small>&laquo; </small><?php echo $this->__('Back') ?></a></p>
+    <button type="button" class="button" onclick="payment.save()"><span><span><?php echo $this->__('Continue') ?></span></span></button>
+    <span class="please-wait" id="payment-please-wait" style="display:none;">
+        <img src="<?php echo $this->getSkinUrl('images/opc-ajax-loader.gif') ?>" alt="<?php echo $this->__('Loading next step...') ?>" title="<?php echo $this->__('Loading next step...') ?>" class="v-middle" /> <?php echo $this->__('Loading next step...') ?>
+    </span>
+</div>
+</div>
+
+
+
+<div class="clearer">
+
+</div>
+
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+    function toggleToolTip(event){
+        if($('payment-tool-tip')){
+            $('payment-tool-tip').setStyle({
+                top: (Event.pointerY(event)-560)+'px'//,
+                //left: (Event.pointerX(event)+100)+'px'
+            })
+            $('payment-tool-tip').toggle();
+        }
+        Event.stop(event);
+    }
+    if($('payment-tool-tip-close')){
+        Event.observe($('payment-tool-tip-close'), 'click', toggleToolTip);
+    }
+	
+	
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+    payment.currentMethod = "<?php echo $this->getChild('methods')->getSelectedMethodCode() ?>";
+//]]>
+</script>
+

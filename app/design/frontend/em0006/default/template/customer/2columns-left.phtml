@@ -1,0 +1,66 @@
+
+<?php
+/**
+ * Template for Mage_Page_Block_Html
+ */
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+<head>
+<?php echo $this->getChildHtml('head') ?>
+</head>
+<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<?php echo $this->getChildHtml('after_body_start') ?>
+<div class="wrapper">
+     
+    
+    <div class="page">
+        <?php echo $this->getChildHtml('header') ?>
+        <div class="main-container col2-left-layout" >
+            <div class="lys_row1_container">			
+                <?php if (!($this->getUrl('') == $this->getUrl('*/*/*', array('_current'=>true, '_use_rewrite'=>true)))):?>
+				<?php echo $this->getChildHtml('breadcrumbs') ?>
+				<?php endif;?>                  
+				
+				<?php echo $this->getChildHtml('slidecategories_categories') ?>
+				<?php echo $this->getChildHtml('cms_top_image') ?>
+
+				<div style="background:#231f20;  margin-top:30px;">
+                <div class="lys-my-account-heading"><h2>My Account</h2></div>
+
+                <div class="col-main" style="margin-top:60px;" >
+				   
+					<div>                   
+                    <?php echo $this->getChildHtml('content') ?>      
+					</div>
+                  
+                </div>
+                 <div style="margin-top:60px;"><?php echo $this->getChildHtml('left') ?></div>
+                <div style="clear:both"></div>
+               
+               
+            
+        </div>
+
+    </div>
+
+        
+</div>
+
+    <div class="clearer" style="margin-top:20px;">
+            <?php echo $this->getChildHtml('footer') ?>
+        <?php echo $this->getChildHtml('before_body_end') ?>
+        </div>
+        
+        
+        
+<?php echo $this->getAbsoluteFooter() ?>
+<?php if (($this->getUrl('') == $this->getUrl('*/*/*', array('_current'=>true, '_use_rewrite'=>true)))):?>
+<script type="text/javascript" charset="utf-8">
+var my_glider = new Glider('my-glider', {duration:0.5});
+my_glider.autoslide(my_glider);
+//var t=setTimeout("my_glider.previous()",1000);
+</script>
+<?php endif;?>
+</body>
+</html>

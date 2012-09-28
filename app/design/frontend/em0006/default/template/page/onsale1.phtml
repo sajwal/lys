@@ -1,0 +1,85 @@
+<div class="clearer" style="margin-bottom:80px;"></div>
+ <div id="carousel_container">
+  
+    <div id='carousel_inner'> 
+    <div class="carousel_head"><?php echo $this->__('LYS Sales') ?></div>           
+    <div id='left_scroll3'><img src=<?php echo $this->getSkinUrl('images/icons/carousel_left.png') ?> /></div>
+    <ul id="carousel_ul3"> 
+<?php
+include_once 'app/Mage.php';
+Mage::app();
+Mage::getSingleton('core/session', array('name' => 'frontend'));
+
+$_productCollection = Mage::getResourceModel('catalogsearch/advanced_collection')
+            ->addAttributeToSelect(Mage::getSingleton('catalog/config')->getProductAttributes())
+            ->addMinimalPrice()
+            ->addStoreFilter();
+
+Mage::getSingleton('catalog/product_status')->addVisibleFilterToCollection($_productCollection);
+Mage::getSingleton('catalog/product_visibility')->addVisibleInSearchFilterToCollection($_productCollection);
+                            
+                            
+$todayDate = date('m/d/y');
+$tomorrow = mktime(0, 0, 0, date('m'), date('d')+1, date('y'));
+$tomorrowDate = date('m/d/y', $tomorrow);
+            
+$_productCollection->addAttributeToFilter('special_from_date', array('date' => true, 'to' => $todayDate))
+    ->addAttributeToFilter('special_to_date', array('or'=> array(
+    0 => array('date' => true, 'from' => $tomorrowDate),
+    1 => array('is' => new Zend_Db_Expr('null')))
+    ), 'left')
+	->setOrder(’updated_at’, ‘desc’)
+	->setPageSize(10); 
+
+?> 
+	<?php foreach($_productCollection as $_product): ?>
+   <?php  if($_product->getData('special_price')!=null):?>
+   
+   <?php $maxLength = 20;
+   $productName =  $this->htmlEscape($_product->getName()); 
+	?>
+            
+            
+		<li style="line-height:1.2em;">
+       <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135) ?>" width="135" height="135" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" /></a>
+       <div>		
+       <h2 class="carousel_brand"><?php echo $_product->getAttributeText('manufacturer');?></h2>
+        <h3 class="carousel_name"><?php echo substr($productName, 0, $maxLength); ?></h3>
+       </div>
+       
+
+             
+             
+       			<div style="text-align:center">
+                 <?php 
+				$lys_price = $_product->getFinalPrice();
+				$sp_price =  $_product->getPrice();
+				
+				echo  '<div>LYS : Rs. '.number_format($lys_price,0).'</div>';     
+                if($lys_price != $sp_price){        
+                echo '<div style="text-decoration:line-through;">MRP : Rs. '.number_format($sp_price,0).'</div>';
+				
+				           
+            	 $_finalPrice = $this->helper('tax')->getPrice($_product, $_product->getFinalPrice());
+          	     $_regularPrice = $this->helper('tax')->getPrice($_product, $_product->getPrice());
+            	 if ($_regularPrice != $_finalPrice):
+            	 $getpercentage = number_format($_finalPrice / $_regularPrice * 100, 2);
+            	 $finalpercentage = 100 - $getpercentage;     
+            	 echo '<h2 class="carousel_saleprice">You Save '.number_format($finalpercentage, 0).'%</h2>' ;     
+           		 endif;
+				}
+                
+				 
+				?>
+                </div>
+              
+
+		</li>
+		
+    <?php endif; ?>
+    <?php endforeach; ?>
+</ul>
+    </div>
+  <div id='right_scroll3'><img src=<?php echo $this->getSkinUrl('images/icons/carousel_right.png') ?> /></div>
+  </div>
+<div style="clear:both"></div>

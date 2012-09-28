@@ -1,0 +1,26 @@
+  <div id='carousel_container'>
+  <div id='left_scroll'><img src=<?php echo $this->getSkinUrl('images/icons/carousel_left.png') ?> /></div>
+    <div id='carousel_inner'>            
+     <?php if (($_products = $this->getProductCollection()) && $_products->getSize()): ?>
+<?php $_columnCount = 10; ?>
+    <?php $i=0; foreach ($_products->getItems() as $_product): ?>
+        <?php if ($i++%$_columnCount==0): ?>
+
+        <ul id='carousel_ul'>
+
+        <?php endif ?>
+            <li>
+                <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135) ?>" width="135" height="135" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" /></a>
+                <h3><a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>"><?php echo $this->htmlEscape($_product->getName()) ?></a></h3>
+                 <?php echo $this->getPriceHtml($_product, true, '-new') ?>
+                <div>
+                </div>
+            </li>
+        <?php if ($i%$_columnCount==0 || $i==count($_products)): ?>
+        </ul>
+        <?php endif ?>
+    <?php endforeach; ?>
+<?php endif; ?>
+    </div>
+  <div id='right_scroll'><img src=<?php echo $this->getSkinUrl('images/icons/carousel_right.png') ?> /></div>
+  </div>

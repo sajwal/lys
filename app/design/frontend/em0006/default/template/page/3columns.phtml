@@ -1,0 +1,104 @@
+<?php
+/**
+ * Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE_AFL.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@magentocommerce.com so we can send you a copy immediately.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade Magento to newer
+ * versions in the future. If you wish to customize Magento for your
+ * needs please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category    design
+ * @package     base_default
+ * @copyright   Copyright (c) 2011 Magento Inc. (http://www.magentocommerce.com)
+ * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
+ */
+?>
+<?php
+/**
+ * Template for Mage_Page_Block_Html
+ */
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->getLang() ?>" lang="<?php echo $this->getLang() ?>">
+<head>
+<?php echo $this->getChildHtml('head') ?>
+</head>
+<body<?php echo $this->getBodyClass()?' class="'.$this->getBodyClass().'"':'' ?>>
+<?php echo $this->getChildHtml('after_body_start') ?>
+<div class="wrapper">
+    <?php echo $this->getChildHtml('global_notices') ?>
+    <div class="page">
+        <?php echo $this->getChildHtml('header') ?>
+        <div class="main-container col3-layout">
+            <div class="main">
+                <?php if (!($this->getUrl('') == $this->getUrl('*/*/*', array('_current'=>true, '_use_rewrite'=>true)))):?>
+                <?php echo $this->getChildHtml('breadcrumbs');?>
+                <?php endif;?> 
+				<?php if (($this->getUrl('') == $this->getUrl('*/*/*', array('_current'=>true, '_use_rewrite'=>true)))):?>
+				<!--<div class="main-banner">
+					<div id="my-glider">
+						<div class="scroller">
+							<div class="content">                 
+								<?php //echo $this->getChildHtml('cms_slideshow') ?>
+							</div>
+						</div>
+					</div>
+				</div>-->
+					<?php if($this->getChildHtml('cms_slideshow')):?>
+						<div class="slideshow-wrapper2">
+							<div class="slideshow-wrapper-inner2">
+								<div id="slideshow2" class="slideshow">
+									<div class="slideshow-box">              
+										<?php echo $this->getChildHtml('cms_slideshow') ?>
+									</div>
+									<div class="navigation"></div>
+								</div>
+							</div>
+						</div>
+					<?php endif;?>
+				<?php endif;?> 
+                <?php echo $this->getChildHtml('slidecategories_categories') ?>
+                <?php echo $this->getChildHtml('cms_top_image') ?>
+                <div class="col-wrapper">
+                    <div class="col-main">
+                        <?php echo $this->getChildHtml('global_messages') ?>
+                        <?php echo $this->getChildHtml('content') ?>
+                    </div>
+                    <div class="col-left sidebar"><?php echo $this->getChildHtml('left') ?></div>
+                </div>
+                <div class="col-right sidebar"><?php echo $this->getChildHtml('right') ?></div>
+                 <div>
+                <div class="cls_horizontal">
+                    <img height="2" width="955" src="<?php echo $this->getSkinUrl('images/horizontal.gif');?>" alt="" /></div>
+                     <?php echo $this->getChildHtml('cms_footer_link_top');?>
+                     <?php echo $this->getChildHtml('right.newsletter');?>
+                                         
+                 <div><img height="2" width="955" src="<?php echo $this->getSkinUrl('images/horizontal.gif');?>" alt="" /></div>
+                 </div>
+            </div>
+        </div>
+        <?php echo $this->getChildHtml('footer') ?>
+        <?php echo $this->getChildHtml('before_body_end') ?>
+    </div>
+</div>
+<?php echo $this->getAbsoluteFooter() ?>
+<?php if (($this->getUrl('') == $this->getUrl('*/*/*', array('_current'=>true, '_use_rewrite'=>true)))):?>
+<script type="text/javascript" charset="utf-8">
+var my_glider = new Glider('my-glider', {duration:0.5});
+my_glider.autoslide(my_glider);
+//var t=setTimeout("my_glider.previous()",1000);
+</script>
+<?php endif;?>
+</body>
+</html>

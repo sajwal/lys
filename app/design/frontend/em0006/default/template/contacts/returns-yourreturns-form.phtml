@@ -1,0 +1,42 @@
+<script type="text/javascript">
+//<![CDATA[
+    var contactForm = new VarienForm('contactForm', true);
+//]]>
+</script>
+
+<div id="messages_product_view"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+
+<form action="<?php echo $this->getFormAction(); ?>" id="contactForm" method="post">
+
+<ul class="returnsform">
+
+<input type="hidden" name="formtype" value="Returns Form filled" title="Returns Form filled"/>
+
+<label for="name" class="required">NAME <em>*</em></label>
+<p><input name="name" id="name" title="<?php echo Mage::helper('contacts')->__('Name') ?>" value="<?php echo $this->htmlEscape($this->helper('contacts')->getUserName()) ?>" class="input-text required-entry" type="text"/></p>
+
+<label for="email" class="required">EMAIL <em>*</em></label>
+<p><input name="email" id="email" title="<?php echo Mage::helper('contacts')->__('Email') ?>" value="<?php echo $this->htmlEscape($this->helper('contacts')->getUserEmail()) ?>" class="input-text required-entry validate-email" type="text"/></p>
+
+<label for="contactnumber" class="required">CONTACT NUMBER <em>*</em></label>
+<p><input name="contactnumber" id="contactnumber" title="contactnumber"  class="input-text required-entry" type="text"  placeholder="CONTACT NUMBER"/></p>
+<label for="ordernumber" class="required">ORDER NUMBER <em>*</em></label>
+<p><input name="ordernumber" id="ordernumber" title="ordernumber" class="input-text required-entry" type="text"/></p>
+
+<div class="clearer"></div>
+<label for="comments" class="required">COMMENTS <em>*</em></label>
+<div class="clearer"></div>   
+<textarea name="comment" id="comment" title="<?php echo Mage::helper('contacts')->__('Comment') ?>" class="required-entry input-text" style="width:500px; min-height:150px; border-radius:5px;"  placeholder="REASON FOR RETURN"></textarea>
+
+<div class="clearer"></div>      
+<input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
+<button type="submit" title="<?php echo $this->__('Submit Returns Request') ?>" class="otob"><span><span><?php echo $this->__('Submit') ?></span></span></button>
+
+ </div>
+        
+            
+  </ul>
+
+
+        
+</form>

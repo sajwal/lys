@@ -1,0 +1,88 @@
+<p></p>
+<div>
+<div>
+
+<!-- Right LYS Advantage -->
+<div id="lys_advantage">
+
+<div class="content">
+<div class="head">
+  <h2><a href="../lys-philosophy">LYS ADVANTAGE</a></h2></div>
+  <div class="clearer"></div>
+  <ul>
+    <li>
+      Shop with <strong>confidence</strong></li>
+    <li> Pay by <strong>Cash on Delivery</strong></li>
+    <li> Best <strong>Deals</strong></li>
+    <li> <strong>Authentic</strong> Products </li>
+    <li>Original <strong>Brands</strong></li>
+    <li> <strong>100% Quality</strong> Assurance </li>
+    <li> Flexible Return Policy </li>
+    <li><strong> Safe and Secure Shopping</strong></li>
+  </ul>
+</div>
+
+
+</div>
+
+<!-- Left -->
+<div>
+
+<?php $_items = $this->getReviewsCollection()->getItems();?>
+    
+  
+        <?php echo $this->getChildHtml('review_form') ?>
+  
+    
+    
+    
+<div class="box-collateral box-reviews" id="customer-reviews">
+    <?php if (count($_items)):?>
+    
+    
+    <div class="cust-rev">
+        <h2><?php echo $this->__('Customer Reviews') ?></h2>
+    <div>    
+
+
+ <div class="lys-review-box">
+ <?php foreach ($_items as $_review):?>
+
+<div><span style="font-size:16px; color:#F60">" </span><?php echo nl2br($this->htmlEscape($_review->getDetail())) ?><span style="font-size:16px; color:#F60"> "</span></div>
+<div><em><?php echo $this->__('- <span>%s</span>', $this->htmlEscape($_review->getNickname())) ?></em></div>
+<div style="margin-bottom:10px; color:#999"><small class="date"><?php echo $this->__('(Posted on %s)', $this->formatDate($_review->getCreatedAt()), 'long') ?></small></div>
+ <?php endforeach; ?>
+</div>   
+ <?php echo $this->getChildHtml('toolbar') ?>
+<?php endif;?>
+
+           
+           
+    <div>
+
+    
+    </div>
+    
+ 
+
+
+</div>
+<div class="clearer"/></div>
+</div>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="clearer"></div>
+</div>

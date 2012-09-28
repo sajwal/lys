@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <cms_index_index>       
+   	 <reference name="root">
+			 <block type="slidecatogories/categories" name="slidecategories_categories" template="slidecategories/view.phtml" />                            
+      </reference>     
+    </cms_index_index>  
+</layout>

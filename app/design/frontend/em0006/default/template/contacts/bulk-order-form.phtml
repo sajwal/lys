@@ -1,0 +1,74 @@
+
+
+<div id="messages_product_view"><?php echo $this->getMessagesBlock()->getGroupedHtml() ?></div>
+
+<form action="<?php echo $this->getFormAction(); ?>" id="contactForm" method="post" style="top:-50px; position:relative">
+    <div class="fieldset">
+<div style="width:100%; margin-left:-4%;">
+<ul class="form-list">
+<script type="text/javascript">
+//<![CDATA[
+    var contactForm = new VarienForm('contactForm', true);
+//]]>
+</script>
+
+<input type="hidden" name="formtype" value="BULK ORDER FORM" title="Bulk Order Form"/>
+       
+                <li>
+                    <label for="name" class="required">NAME <em>*</em></label>
+                    <div class="input-box">
+                        <input name="name" id="name" title="<?php echo Mage::helper('contacts')->__('Name') ?>" value="<?php echo $this->htmlEscape($this->helper('contacts')->getUserName()) ?>" class="input-text required-entry" type="text" />
+                    </div>
+                </li>
+                <li>
+                    <label for="email" class="required">EMAIL <em>*</em></label>
+                    <div class="input-box">
+                        <input name="email" id="email" title="<?php echo Mage::helper('contacts')->__('Email') ?>" value="<?php echo $this->htmlEscape($this->helper('contacts')->getUserEmail()) ?>" class="input-text required-entry validate-email" type="text" />
+                    </div>
+                </li>
+  
+            <li>
+                <label for="telephone" class="required">CONTACT NUMBER <em>*</em></label>
+                <div class="input-box">
+                    <input name="telephone" id="telephone" title="<?php echo Mage::helper('contacts')->__('Telephone') ?>" value="" class="required-entry validate-number2 input-text" type="text" />
+                </div>
+            </li>
+            
+            
+              <li>
+               <label for="productcode">PRODUCT CODE</label>
+               <div class="input-box">
+                   <input name="productcode" id="productcode" title="<?php echo Mage::helper('contacts')->__('Product Code') ?>" value="" class="input-text" type="text" />
+               </div>
+           </li>
+           
+                    <li>
+               <label for="productcode" class="required">QUANTITY <em>*</em></label>
+               <div class="input-box">
+                   <input name="quantity" id="quantity" title="<?php echo Mage::helper('contacts')->__('Quantity') ?>" value="" class="required-entry input-text" type="text" />
+               </div>
+           </li>
+            
+            
+            <li class="wide">
+              <label for="comment" class="required">TELL US ABOUT WHAT YOU WANT <em>*</em></label>
+                <div class="input-box">
+                    <textarea name="comment" id="comment" title="<?php echo Mage::helper('contacts')->__('Comment') ?>" class="required-entry input-text" style="width:500px; min-height:150px; border-radius:5px;"></textarea>
+              </div>
+            </li>
+            
+
+            
+            
+      </ul>
+  </div>
+    <div style="margin-left:-4%;">
+    <input type="text" name="hideit" id="hideit" value="" style="display:none !important;" />
+
+        <button type="submit" title="<?php echo $this->__('Submit Bulk Order') ?>" class="otob"><span><span><?php echo $this->__('Submit Order') ?></span></span></button>
+   <div class="clearer"></div>       
+ <div style="float:left; color:#fff; margin-top:10px; margin-left:"><em>*</em> Indicates required fields</div>
+
+        
+    </div></div></form></div>
+

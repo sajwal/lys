@@ -1,0 +1,784 @@
+[16-Jun-2012 20:46:26 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 20:51:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 943
+[16-Jun-2012 20:53:14 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 284
+[16-Jun-2012 20:54:34 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 21:18:32 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 21:37:51 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 21:40:29 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 21:41:58 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 21:42:26 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 21:43:00 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 21:43:04 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 21:56:47 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 21:59:13 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 22:29:55 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[16-Jun-2012 22:33:28 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[17-Jun-2012 01:22:46 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[17-Jun-2012 08:41:51 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 34
+[17-Jun-2012 08:45:21 UTC] PHP Fatal error:  Call to a member function setLayer() on a non-object in /home/lys/public_html/magento/app/code/local/Mana/Filters/Block/Search.php on line 35
+[17-Jun-2012 08:49:29 UTC] PHP Warning:  PDO::exec() [<a href='pdo.exec'>pdo.exec</a>]: SQLSTATE[HY000]: General error: trying to execute an empty query in /home/lys/public_html/magento/mysql.php on line 39
+[17-Jun-2012 17:47:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 422
+[17-Jun-2012 17:48:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Object.php on line 117
+[17-Jun-2012 19:38:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Object.php on line 117
+[18-Jun-2012 06:05:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Db/Select.php on line 67
+[18-Jun-2012 06:26:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement.php on line 163
+[18-Jun-2012 06:27:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 827
+[18-Jun-2012 06:28:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 478
+[18-Jun-2012 06:30:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 1109
+[18-Jun-2012 06:33:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 0
+[18-Jun-2012 06:38:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement/Pdo.php on line 228
+[18-Jun-2012 06:42:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Helper/Product/Url.php on line 129
+[18-Jun-2012 06:45:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 707
+[18-Jun-2012 06:46:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 1013
+[18-Jun-2012 06:47:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 482
+[18-Jun-2012 06:48:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 788
+[18-Jun-2012 06:51:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Model/Resource/Url.php on line 190
+[18-Jun-2012 07:06:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Object.php on line 344
+[18-Jun-2012 07:08:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 977
+[18-Jun-2012 07:11:07 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 475
+[18-Jun-2012 07:13:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement.php on line 188
+[18-Jun-2012 07:14:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement/Pdo.php on line 228
+[18-Jun-2012 07:34:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 943
+[18-Jun-2012 07:40:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 433
+[18-Jun-2012 07:50:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Model/Url.php on line 637
+[18-Jun-2012 08:18:19 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 705
+[18-Jun-2012 08:20:49 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 868
+[18-Jun-2012 08:29:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement.php on line 146
+[18-Jun-2012 08:34:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 703
+[18-Jun-2012 08:42:30 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement.php on line 188
+[18-Jun-2012 08:53:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 703
+[18-Jun-2012 08:58:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement.php on line 154
+[18-Jun-2012 08:59:56 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 704
+[18-Jun-2012 09:13:25 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 1012
+[18-Jun-2012 09:16:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement/Pdo.php on line 430
+[18-Jun-2012 09:18:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Helper/Product/Url.php on line 129
+[18-Jun-2012 09:19:57 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 975
+[18-Jun-2012 09:24:36 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 925
+[18-Jun-2012 09:40:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 941
+[18-Jun-2012 09:42:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Object.php on line 105
+[18-Jun-2012 09:53:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 166
+[18-Jun-2012 09:57:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Model/Url.php on line 639
+[18-Jun-2012 10:01:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Model/Url.php on line 610
+[18-Jun-2012 10:18:42 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 475
+[18-Jun-2012 10:26:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 0
+[18-Jun-2012 10:32:38 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Model/Url.php on line 648
+[18-Jun-2012 10:46:31 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 843
+[18-Jun-2012 10:50:03 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 704
+[18-Jun-2012 10:51:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 1072
+[18-Jun-2012 10:56:13 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 435
+[18-Jun-2012 10:58:22 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 1397
+[18-Jun-2012 11:00:28 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 1179
+[18-Jun-2012 11:03:24 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 703
+[18-Jun-2012 11:05:47 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 1153
+[18-Jun-2012 11:06:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 905
+[18-Jun-2012 11:09:01 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Object.php on line 117
+[18-Jun-2012 11:10:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 375
+[18-Jun-2012 11:11:52 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Model/Url.php on line 749
+[18-Jun-2012 11:45:04 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 1046
+[18-Jun-2012 11:56:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Helper/Product/Url.php on line 129
+[18-Jun-2012 11:57:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 1082
+[18-Jun-2012 11:59:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement.php on line 187
+[18-Jun-2012 12:01:08 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement.php on line 154
+[18-Jun-2012 12:09:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement/Pdo.php on line 228
+[18-Jun-2012 12:14:15 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 1042
+[18-Jun-2012 12:15:17 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Db/Select.php on line 123
+[18-Jun-2012 12:16:39 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Model/Url.php on line 637
+[18-Jun-2012 12:18:10 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Object.php on line 367
+[18-Jun-2012 12:19:16 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 433
+[18-Jun-2012 12:24:02 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 433
+[18-Jun-2012 12:26:32 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 748
+[18-Jun-2012 12:28:20 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Model/Url.php on line 645
+[18-Jun-2012 12:49:29 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 0
+[18-Jun-2012 12:52:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 1055
+[18-Jun-2012 12:53:34 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 702
+[18-Jun-2012 12:54:43 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Statement.php on line 141
+[18-Jun-2012 12:55:59 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 932
+[18-Jun-2012 12:57:06 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/code/core/Mage/Catalog/Helper/Product/Url.php on line 129
+[18-Jun-2012 12:58:46 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 905
+[18-Jun-2012 12:59:54 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Adapter/Abstract.php on line 1045
+[18-Jun-2012 13:28:59 UTC] PHP Fatal error:  Call to a member function setCustomerId() on a non-object in /home/lys/public_html/magento/app/code/core/Mage/Customer/controllers/AccountController.php on line 587
+[18-Jun-2012 13:29:44 UTC] PHP Fatal error:  Call to a member function setCustomerId() on a non-object in /home/lys/public_html/magento/app/code/core/Mage/Customer/controllers/AccountController.php on line 587
+[18-Jun-2012 13:29:52 UTC] PHP Fatal error:  Call to a member function setCustomerId() on a non-object in /home/lys/public_html/magento/app/code/core/Mage/Customer/controllers/AccountController.php on line 587
+[18-Jun-2012 14:49:12 UTC] PHP Fatal error:  Call to a member function setCustomerId() on a non-object in /home/lys/public_html/magento/app/code/core/Mage/Customer/controllers/AccountController.php on line 587
+[18-Jun-2012 17:06:48 UTC] PHP Fatal error:  Call to a member function setCustomerId() on a non-object in /home/lys/public_html/magento/app/code/core/Mage/Customer/controllers/AccountController.php on line 587
+[18-Jun-2012 18:18:58 UTC] PHP Fatal error:  Call to a member function setCustomerId() on a non-object in /home/lys/public_html/magento/app/code/core/Mage/Customer/controllers/AccountController.php on line 587
+[18-Jun-2012 18:27:55 UTC] PHP Fatal error:  Call to a member function setCustomerId() on a non-object in /home/lys/public_html/magento/app/code/core/Mage/Customer/controllers/AccountController.php on line 587
+[18-Jun-2012 20:53:11 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/app/Mage.php on line 664
+[19-Jun-2012 04:34:51 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 788
+[25-Jun-2012 06:58:36 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 936
+[25-Jun-2012 06:58:51 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 936
+[25-Jun-2012 06:59:07 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 936
+[25-Jun-2012 06:59:18 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 32 bytes) in /home/lys/public_html/magento/lib/Zend/Db/Select.php on line 936
+[16-Jul-2012 06:17:22 UTC] PHP Parse error:  syntax error, unexpected ']', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/lys/public_html/magento/app/design/frontend/em0006/default/template/inchoo/random_quotes.phtml on line 39
+[16-Jul-2012 06:17:32 UTC] PHP Parse error:  syntax error, unexpected ']', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /home/lys/public_html/magento/app/design/frontend/em0006/default/template/inchoo/random_quotes.phtml on line 39
+[31-Jul-2012 15:02:44 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 77 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 290
+[31-Jul-2012 15:03:56 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 77 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 290
+[20-Aug-2012 20:24:55 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 1024 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity/Collection/Abstract.php on line 1497
+[22-Aug-2012 00:04:21 UTC] PHP Fatal error:  Out of memory (allocated 18612224) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Block/Links.php on line 79
+[22-Aug-2012 00:04:21 UTC] PHP Fatal error:  Out of memory (allocated 25165824) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Paypal/Model/Config.php on line 356
+[22-Aug-2012 08:34:01 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSeoLinks/Model/Url.php on line 112
+[22-Aug-2012 08:34:05 UTC] PHP Fatal error:  Out of memory (allocated 15204352) (tried to allocate 79 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 36
+[22-Aug-2012 08:34:10 UTC] PHP Fatal error:  Out of memory (allocated 18874368) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Model/Cart.php on line 439
+[22-Aug-2012 08:34:11 UTC] PHP Fatal error:  Out of memory (allocated 22544384) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Config.php on line 328
+[22-Aug-2012 08:34:11 UTC] PHP Fatal error:  Out of memory (allocated 21233664) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Text.php on line 65
+[22-Aug-2012 08:34:13 UTC] PHP Fatal error:  Out of memory (allocated 38535168) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Paypal/Model/Express.php on line 435
+[23-Aug-2012 22:32:58 UTC] PHP Fatal error:  Out of memory (allocated 30932992) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Review/Block/Product/View.php on line 93
+[23-Aug-2012 22:33:07 UTC] PHP Fatal error:  Out of memory (allocated 25427968) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Paypal/Model/Config.php on line 1349
+[24-Aug-2012 03:08:29 UTC] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/lys/public_html/app/design/frontend/em0006/default/template/catalog/product/view.phtml on line 57
+[24-Aug-2012 03:08:56 UTC] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/lys/public_html/app/design/frontend/em0006/default/template/catalog/product/view.phtml on line 57
+[24-Aug-2012 03:09:29 UTC] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/lys/public_html/app/design/frontend/em0006/default/template/catalog/product/view.phtml on line 57
+[24-Aug-2012 03:09:39 UTC] PHP Parse error:  syntax error, unexpected T_ENDIF in /home/lys/public_html/app/design/frontend/em0006/default/template/catalog/product/view.phtml on line 57
+[24-Aug-2012 10:45:15 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Db/Abstract.php on line 0
+[24-Aug-2012 11:07:56 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8192 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[25-Aug-2012 15:46:19 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[25-Aug-2012 18:17:52 UTC] PHP Fatal error:  Out of memory (allocated 33816576) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/CatalogInventory/Model/Observer.php on line 396
+[26-Aug-2012 18:06:33 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[26-Aug-2012 18:06:40 UTC] PHP Fatal error:  Out of memory (allocated 21233664) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname/Com.php on line 96
+[26-Aug-2012 18:06:40 UTC] PHP Fatal error:  Out of memory (allocated 18350080) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/CatalogSearch/Helper/Data.php on line 87
+[26-Aug-2012 18:06:40 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Js.php on line 217
+[26-Aug-2012 18:06:40 UTC] PHP Fatal error:  Out of memory (allocated 23330816) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Filter/Template/Tokenizer/Abstract.php on line 87
+[27-Aug-2012 08:42:23 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 115601 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 207
+[27-Aug-2012 16:36:53 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[27-Aug-2012 18:07:42 UTC] PHP Fatal error:  Out of memory (allocated 7077888) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Store/Group/Collection.php on line 95
+[27-Aug-2012 18:07:42 UTC] PHP Fatal error:  Out of memory (allocated 23330816) (tried to allocate 40961 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 219
+[27-Aug-2012 18:07:42 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Widget/Model/Template/Filter.php on line 76
+[27-Aug-2012 18:07:45 UTC] PHP Fatal error:  Out of memory (allocated 19398656) (tried to allocate 90 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout.php on line 465
+[27-Aug-2012 18:07:45 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Widget/Model/Template/Filter.php on line 76
+[27-Aug-2012 18:07:46 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Helper/Data.php on line 56
+[27-Aug-2012 18:07:53 UTC] PHP Fatal error:  Out of memory (allocated 25165824) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Paypal/Model/Config.php on line 269
+[27-Aug-2012 18:07:53 UTC] PHP Fatal error:  Out of memory (allocated 30932992) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterAjax/Helper/Data.php on line 23
+[27-Aug-2012 18:56:36 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[28-Aug-2012 13:18:39 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 1632 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[28-Aug-2012 13:38:24 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[28-Aug-2012 14:58:04 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[28-Aug-2012 15:00:51 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[28-Aug-2012 16:12:25 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[28-Aug-2012 18:28:01 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 201
+[28-Aug-2012 18:28:05 UTC] PHP Fatal error:  Out of memory (allocated 19398656) (tried to allocate 87 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout.php on line 465
+[28-Aug-2012 18:28:05 UTC] PHP Fatal error:  Out of memory (allocated 17301504) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Category.php on line 117
+[28-Aug-2012 18:28:05 UTC] PHP Fatal error:  Out of memory (allocated 11534336) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Controller/Front/Action.php on line 126
+[28-Aug-2012 18:28:05 UTC] PHP Fatal error:  Out of memory (allocated 13631488) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterColors/Model/Observer.php on line 346
+[28-Aug-2012 18:28:05 UTC] PHP Fatal error:  Out of memory (allocated 11796480) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php on line 1026
+[28-Aug-2012 18:28:06 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Js.php on line 217
+[28-Aug-2012 18:28:06 UTC] PHP Fatal error:  Out of memory (allocated 21233664) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname/Com.php on line 96
+[28-Aug-2012 18:28:08 UTC] PHP Fatal error:  Out of memory (allocated 16515072) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[28-Aug-2012 18:28:08 UTC] PHP Fatal error:  Out of memory (allocated 19922944) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Poll/Block/ActivePoll.php on line 180
+[28-Aug-2012 18:28:08 UTC] PHP Fatal error:  Out of memory (allocated 20709376) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Sales/Block/Reorder/Sidebar.php on line 140
+[28-Aug-2012 18:28:15 UTC] PHP Fatal error:  Out of memory (allocated 13893632) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Data.php on line 60
+[28-Aug-2012 18:28:16 UTC] PHP Fatal error:  Out of memory (allocated 20447232) (tried to allocate 82 bytes) in /home/lys/public_html/app/code/local/Mana/Core/Block/Singleton.php on line 24
+[28-Aug-2012 18:28:16 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Js.php on line 217
+[29-Aug-2012 18:05:13 UTC] PHP Fatal error:  Out of memory (allocated 23592960) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 795
+[29-Aug-2012 18:05:13 UTC] PHP Fatal error:  Out of memory (allocated 21233664) (tried to allocate 1221 bytes) in /home/lys/public_html/lib/Zend/Db/Statement.php on line 204
+[29-Aug-2012 18:05:16 UTC] PHP Fatal error:  Out of memory (allocated 28311552) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Collection.php on line 270
+[30-Aug-2012 18:23:36 UTC] PHP Fatal error:  Out of memory (allocated 22806528) (tried to allocate 92 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity.php on line 55
+[30-Aug-2012 18:23:43 UTC] PHP Fatal error:  Out of memory (allocated 34078720) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Widget/Model/Template/Filter.php on line 76
+[31-Aug-2012 18:08:34 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Widget/Model/Template/Filter.php on line 42
+[01-Sep-2012 18:09:14 UTC] PHP Fatal error:  Out of memory (allocated 19398656) (tried to allocate 32 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Block/Cart/Abstract.php on line 63
+[01-Sep-2012 18:09:15 UTC] PHP Fatal error:  Out of memory (allocated 22544384) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Config.php on line 328
+[01-Sep-2012 18:09:23 UTC] PHP Fatal error:  Out of memory (allocated 36700160) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Locale/Data.php on line 383
+[02-Sep-2012 18:14:07 UTC] PHP Fatal error:  Out of memory (allocated 22282240) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 996
+[02-Sep-2012 18:14:09 UTC] PHP Fatal error:  Out of memory (allocated 28573696) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Helper/Product/Flat.php on line 99
+[02-Sep-2012 18:14:09 UTC] PHP Fatal error:  Out of memory (allocated 39321600) (tried to allocate 32 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 290
+[03-Sep-2012 18:27:21 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 201
+[03-Sep-2012 18:27:22 UTC] PHP Fatal error:  Out of memory (allocated 20709376) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Sales/Block/Reorder/Sidebar.php on line 140
+[03-Sep-2012 18:27:25 UTC] PHP Fatal error:  Out of memory (allocated 19922944) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Poll/Block/ActivePoll.php on line 180
+[03-Sep-2012 18:27:25 UTC] PHP Fatal error:  Out of memory (allocated 17825792) (tried to allocate 85 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Block/Product/Abstract.php on line 571
+[07-Sep-2012 20:10:08 UTC] PHP Fatal error:  Out of memory (allocated 28835840) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Helper/Product/Flat.php on line 99
+[09-Sep-2012 00:00:17 UTC] PHP Fatal error:  Out of memory (allocated 39583744) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Link/Product/Collection.php on line 333
+[09-Sep-2012 00:00:27 UTC] PHP Fatal error:  Out of memory (allocated 19922944) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/CatalogInventory/Model/Stock/Item.php on line 358
+[09-Sep-2012 00:00:27 UTC] PHP Fatal error:  Out of memory (allocated 22282240) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 1135
+[09-Sep-2012 00:00:27 UTC] PHP Fatal error:  Out of memory (allocated 13107200) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/local/Mana/Filters/Model/Filter2/Store.php on line 14
+[09-Sep-2012 00:00:27 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 437
+[09-Sep-2012 00:00:33 UTC] PHP Fatal error:  Out of memory (allocated 25427968) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Helper/Data.php on line 166
+[10-Sep-2012 03:59:11 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Widget/Model/Template/Filter.php on line 76
+[10-Sep-2012 03:59:18 UTC] PHP Fatal error:  Out of memory (allocated 20185088) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[10-Sep-2012 03:59:18 UTC] PHP Fatal error:  Out of memory (allocated 21233664) (tried to allocate 32 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 290
+[10-Sep-2012 03:59:21 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Helper/Data.php on line 45
+[10-Sep-2012 10:47:35 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 115601 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 207
+[10-Sep-2012 13:11:52 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[11-Sep-2012 04:35:10 UTC] PHP Fatal error:  Out of memory (allocated 17825792) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Block/Product/Abstract.php on line 571
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Db/Collection/Abstract.php on line 36
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 19136512) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Helper/Data.php on line 166
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 1310720) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1037
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 6029312) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Db/Ddl/Table.php on line 312
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 256
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 523800 bytes) in Unknown on line 0
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 615
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 615
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 22806528) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity.php on line 55
+[11-Sep-2012 04:35:12 UTC] PHP Fatal error:  Out of memory (allocated 14680064) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Helper/Layout.php on line 42
+[11-Sep-2012 04:35:14 UTC] PHP Fatal error:  Out of memory (allocated 25427968) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Paypal/Model/Config.php on line 1349
+[12-Sep-2012 00:46:28 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Js.php on line 217
+[12-Sep-2012 00:46:28 UTC] PHP Fatal error:  Out of memory (allocated 8912896) (tried to allocate 64 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 622
+[12-Sep-2012 00:46:28 UTC] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Profiler.php on line 100
+[12-Sep-2012 00:46:30 UTC] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource.php on line 272
+[12-Sep-2012 00:46:30 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 155 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Website/Collection.php on line 36
+[12-Sep-2012 00:46:30 UTC] PHP Fatal error:  Out of memory (allocated 11010048) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Controller/Response/Abstract.php on line 749
+[12-Sep-2012 00:46:30 UTC] PHP Fatal error:  Out of memory (allocated 5242880) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 2943
+[12-Sep-2012 00:46:30 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[12-Sep-2012 00:46:30 UTC] PHP Fatal error:  Out of memory (allocated 8650752) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Setup.php on line 330
+[12-Sep-2012 00:46:30 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[12-Sep-2012 00:46:31 UTC] PHP Fatal error:  Out of memory (allocated 14155776) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Session.php on line 78
+[12-Sep-2012 00:46:31 UTC] PHP Fatal error:  Out of memory (allocated 23855104) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 1922
+[12-Sep-2012 00:46:31 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[12-Sep-2012 00:46:31 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[12-Sep-2012 00:46:31 UTC] PHP Fatal error:  Out of memory (allocated 22282240) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 1135
+[12-Sep-2012 00:46:31 UTC] PHP Fatal error:  Out of memory (allocated 11534336) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php on line 153
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 7602176) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Store/Collection.php on line 163
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 20709376) (tried to allocate 1024 bytes) in /home/lys/public_html/app/code/core/Mage/Sales/Block/Reorder/Sidebar.php on line 140
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Session/Abstract.php on line 262
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 21233664) (tried to allocate 88 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 290
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSeoLinks/Resource/Rewrite.php on line 58
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 4718592) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 945
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 12320768) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Design/Package.php on line 345
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 14942208) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Abstract.php on line 291
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 9699328) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Uri.php on line 133
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 25690112) (tried to allocate 84 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Block/Cart/Abstract.php on line 59
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 8912896) (tried to allocate 32 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 622
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 871
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 13631488) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterColors/Model/Observer.php on line 346
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 13631488) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterColors/Model/Observer.php on line 346
+[12-Sep-2012 00:46:32 UTC] PHP Fatal error:  Out of memory (allocated 13631488) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterColors/Model/Observer.php on line 346
+[13-Sep-2012 02:15:19 UTC] PHP Fatal error:  Out of memory (allocated 9175040) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Abstract.php on line 238
+[13-Sep-2012 02:15:19 UTC] PHP Fatal error:  Out of memory (allocated 18874368) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Model/Cart.php on line 385
+[13-Sep-2012 02:15:19 UTC] PHP Fatal error:  Out of memory (allocated 20709376) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Sales/Block/Reorder/Sidebar.php on line 140
+[13-Sep-2012 02:15:19 UTC] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 651
+[13-Sep-2012 02:15:19 UTC] PHP Fatal error:  Out of memory (allocated 19922944) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Poll/Block/ActivePoll.php on line 180
+[13-Sep-2012 02:15:19 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 321
+[13-Sep-2012 02:15:19 UTC] PHP Fatal error:  Out of memory (allocated 14155776) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Session.php on line 78
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Model/Page.php on line 96
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Translate/Inline.php on line 265
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 22020096) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Resource/Customer.php on line 154
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 13893632) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Data.php on line 135
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 4718592) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 822
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 15990784) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout.php on line 108
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 576
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Translate/Inline.php on line 265
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 437
+[13-Sep-2012 02:15:27 UTC] PHP Fatal error:  Out of memory (allocated 12058624) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout/Update.php on line 190
+[13-Sep-2012 02:15:28 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8192 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[13-Sep-2012 02:15:28 UTC] PHP Fatal error:  Out of memory (allocated 13631488) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterColors/Model/Observer.php on line 346
+[13-Sep-2012 02:15:28 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[13-Sep-2012 02:15:28 UTC] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Controller/Request/Http.php on line 412
+[13-Sep-2012 02:15:28 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Db/Select.php on line 1089
+[13-Sep-2012 02:15:28 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Translate/Inline.php on line 265
+[13-Sep-2012 02:15:29 UTC] PHP Fatal error:  Out of memory (allocated 18350080) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/CatalogSearch/Helper/Data.php on line 117
+[13-Sep-2012 02:15:29 UTC] PHP Fatal error:  Out of memory (allocated 15466496) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Head.php on line 328
+[13-Sep-2012 02:15:29 UTC] PHP Fatal error:  Out of memory (allocated 21757952) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Customer.php on line 655
+[13-Sep-2012 02:15:29 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Design.php on line 132
+[13-Sep-2012 02:15:29 UTC] PHP Fatal error:  Out of memory (allocated 15204352) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 36
+[13-Sep-2012 02:15:29 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/Mana/Core/Model/Object.php on line 123
+[13-Sep-2012 02:15:30 UTC] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Controller/Request/Http.php on line 412
+[13-Sep-2012 02:15:30 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Db/Select.php on line 1089
+[13-Sep-2012 02:15:30 UTC] PHP Fatal error:  Out of memory (allocated 12058624) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout/Update.php on line 190
+[13-Sep-2012 02:15:30 UTC] PHP Fatal error:  Out of memory (allocated 3407872) (tried to allocate 245050 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[13-Sep-2012 02:15:30 UTC] PHP Fatal error:  Out of memory (allocated 7077888) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Store/Group/Collection.php on line 125
+[13-Sep-2012 02:15:30 UTC] PHP Fatal error:  Out of memory (allocated 23592960) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 783
+[13-Sep-2012 02:15:30 UTC] PHP Fatal error:  Out of memory (allocated 21757952) (tried to allocate 384 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Customer.php on line 633
+[13-Sep-2012 02:15:30 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Helper/Data.php on line 56
+[13-Sep-2012 22:59:51 UTC] PHP Fatal error:  Out of memory (allocated 16515072) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Footer.php on line 39
+[13-Sep-2012 22:59:51 UTC] PHP Fatal error:  Out of memory (allocated 1310720) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1097
+[13-Sep-2012 22:59:51 UTC] PHP Fatal error:  Out of memory (allocated 5242880) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 2943
+[13-Sep-2012 22:59:51 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 437
+[13-Sep-2012 22:59:51 UTC] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 523800 bytes) in Unknown on line 0
+[13-Sep-2012 22:59:51 UTC] PHP Fatal error:  Out of memory (allocated 2621440) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Cache.php on line 363
+[13-Sep-2012 22:59:52 UTC] PHP Fatal error:  Out of memory (allocated 13631488) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterColors/Model/Observer.php on line 346
+[13-Sep-2012 22:59:52 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 148
+[13-Sep-2012 22:59:52 UTC] PHP Fatal error:  Out of memory (allocated 13893632) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Data.php on line 71
+[13-Sep-2012 22:59:58 UTC] PHP Fatal error:  Out of memory (allocated 17825792) (tried to allocate 2048 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Block/Product/Abstract.php on line 571
+[13-Sep-2012 22:59:58 UTC] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Profiler.php on line 100
+[13-Sep-2012 22:59:58 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[13-Sep-2012 22:59:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/sqlite.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[13-Sep-2012 22:59:58 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[13-Sep-2012 22:59:58 UTC] PHP Fatal error:  Out of memory (allocated 24379392) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSeoLinks/Model/Url.php on line 58
+[13-Sep-2012 22:59:58 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Helper/Data.php on line 45
+[13-Sep-2012 22:59:58 UTC] PHP Fatal error:  Out of memory (allocated 20447232) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product/Status.php on line 200
+[13-Sep-2012 22:59:58 UTC] PHP Fatal error:  Out of memory (allocated 3407872) (tried to allocate 245050 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[13-Sep-2012 22:59:58 UTC] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource.php on line 333
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Db/Collection/Abstract.php on line 36
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 7680 bytes) in /home/lys/public_html/app/Mage.php on line 558
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 908
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Session/Abstract.php on line 326
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Controller/Request/Http.php on line 390
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 6029312) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Db/Ddl/Table.php on line 312
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 908
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 107 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Website/Collection.php on line 36
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Model/Page.php on line 96
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource.php on line 333
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 14155776) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Session.php on line 63
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[13-Sep-2012 22:59:59 UTC] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 334
+[14-Sep-2012 05:33:11 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[14-Sep-2012 05:33:19 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[14-Sep-2012 06:30:11 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[14-Sep-2012 08:59:09 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[15-Sep-2012 01:53:23 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[15-Sep-2012 01:53:23 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[15-Sep-2012 01:53:23 UTC] PHP Fatal error:  Out of memory (allocated 27787264) (tried to allocate 7 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Model/Cart.php on line 185
+[15-Sep-2012 01:53:23 UTC] PHP Fatal error:  Out of memory (allocated 1310720) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1097
+[15-Sep-2012 01:53:23 UTC] PHP Fatal error:  Out of memory (allocated 13107200) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Visitor.php on line 155
+[15-Sep-2012 01:53:23 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 908
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 424
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 7680 bytes) in /home/lys/public_html/app/Mage.php on line 558
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 1310720) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1097
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 908
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 18087936) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSeoLinks/Model/Url.php on line 58
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 16252928) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config/Data.php on line 122
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 2621440) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Cache.php on line 363
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 13107200) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Visitor.php on line 155
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 7680 bytes) in /home/lys/public_html/app/Mage.php on line 558
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 17301504) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Category.php on line 117
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 1310720) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1097
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 14680064) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 312
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 871
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 3407872) (tried to allocate 245050 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 14417920) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Session.php on line 181
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 321
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 15204352) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 36
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 1310720) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1020
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 2621440) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Cache.php on line 363
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 7602176) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Store/Collection.php on line 82
+[15-Sep-2012 01:53:26 UTC] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 523800 bytes) in Unknown on line 0
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 669
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 669
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 201
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 5767168) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1277
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 34340864) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Tax/Model/Config.php on line 218
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 8650752) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Setup.php on line 330
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 3670016) (tried to allocate 236859 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1322
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 908
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 9699328) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Uri.php on line 199
+[15-Sep-2012 01:53:27 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 424
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 669
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Model/Page.php on line 96
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 7680 bytes) in /home/lys/public_html/app/Mage.php on line 499
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 11010048) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Controller/Response/Abstract.php on line 723
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 155 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Website/Collection.php on line 36
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 5767168) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1197
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource.php on line 333
+[15-Sep-2012 01:53:27 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8192 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[16-Sep-2012 03:28:26 UTC] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Select.php on line 409
+[16-Sep-2012 03:28:26 UTC] PHP Fatal error:  Out of memory (allocated 39321600) (tried to allocate 88 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 290
+[16-Sep-2012 03:28:26 UTC] PHP Fatal error:  Out of memory (allocated 12058624) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout/Update.php on line 190
+[16-Sep-2012 03:28:26 UTC] PHP Fatal error:  Out of memory (allocated 19136512) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Helper/Data.php on line 266
+[16-Sep-2012 03:28:26 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Controller/Varien/Router/Standard.php on line 323
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 10747904) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/local/Mana/Core/Helper/Data.php on line 375
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 19922944) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Poll/Block/ActivePoll.php on line 180
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Data/Collection/Db.php on line 350
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 33554432) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 554
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 22544384) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Collection.php on line 1563
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 14155776) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Session.php on line 78
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterColors/Model/Observer.php on line 125
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 13631488) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterColors/Model/Observer.php on line 346
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 18350080) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/CatalogSearch/Helper/Data.php on line 117
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 437
+[16-Sep-2012 03:28:30 UTC] PHP Fatal error:  Out of memory (allocated 11796480) (tried to allocate 512 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/controllers/IndexController.php on line 36
+[16-Sep-2012 03:28:31 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 323
+[16-Sep-2012 03:28:31 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[16-Sep-2012 03:28:31 UTC] PHP Fatal error:  Out of memory (allocated 13893632) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Data.php on line 145
+[16-Sep-2012 03:28:31 UTC] PHP Fatal error:  Out of memory (allocated 20971520) (tried to allocate 30720 bytes) in /home/lys/public_html/app/design/frontend/em0006/default/template/page/1column.phtml on line 62
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Data/Collection/Db.php on line 350
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 18612224) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Resource/Helper/Mysql4.php on line 45
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 8650752) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Setup.php on line 330
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 15466496) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Head.php on line 328
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 908
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Js.php on line 217
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 14155776) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Session.php on line 78
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 9437184) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 328
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Select.php on line 409
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 256
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 83 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Website/Collection.php on line 36
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 15728640) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Text/List.php on line 34
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 908
+[16-Sep-2012 03:28:40 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[16-Sep-2012 03:28:40 UTC] PHP Fatal error:  Call to a member function xpath() on a non-object in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout.php on line 154
+[17-Sep-2012 04:00:56 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Data/Collection/Db.php on line 350
+[17-Sep-2012 04:00:56 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[17-Sep-2012 04:00:56 UTC] PHP Fatal error:  Out of memory (allocated 15990784) (tried to allocate 81 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Template/Links.php on line 224
+[17-Sep-2012 04:00:56 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 323
+[17-Sep-2012 04:00:56 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 323
+[17-Sep-2012 04:00:56 UTC] PHP Fatal error:  Out of memory (allocated 22020096) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Resource/Customer.php on line 154
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 15990784) (tried to allocate 56 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Template/Links.php on line 224
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 4718592) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 945
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 17039360) (tried to allocate 2048 bytes) in /home/lys/public_html/app/code/core/Mage/Directory/Block/Currency.php on line 115
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Controller/Request/Http.php on line 412
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 22282240) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 1135
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 14680064) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 312
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 7680 bytes) in /home/lys/public_html/app/Mage.php on line 558
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 371
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 18087936) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSeoLinks/Model/Url.php on line 58
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 669
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 9699328) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Uri.php on line 199
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 437
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 371
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Session/Abstract.php on line 326
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 9699328) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Uri.php on line 199
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Profiler.php on line 100
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 371
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource.php on line 333
+[17-Sep-2012 04:01:03 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Data/Collection/Db.php on line 350
+[17-Sep-2012 04:01:04 UTC] PHP Fatal error:  Out of memory (allocated 13107200) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Visitor.php on line 131
+[17-Sep-2012 04:01:06 UTC] PHP Fatal error:  Out of memory (allocated 34340864) (tried to allocate 40961 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 219
+[17-Sep-2012 04:01:06 UTC] PHP Fatal error:  Out of memory (allocated 14417920) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Translate.php on line 183
+[17-Sep-2012 04:01:06 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 201
+[17-Sep-2012 04:01:06 UTC] PHP Fatal error:  Out of memory (allocated 23855104) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 1878
+[17-Sep-2012 04:01:06 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 371
+[17-Sep-2012 04:01:06 UTC] PHP Fatal error:  Out of memory (allocated 15204352) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 36
+[17-Sep-2012 04:01:07 UTC] PHP Fatal error:  Out of memory (allocated 19922944) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Poll/Block/ActivePoll.php on line 180
+[17-Sep-2012 04:01:07 UTC] PHP Fatal error:  Out of memory (allocated 19136512) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Helper/Data.php on line 266
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 13107200) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Visitor.php on line 155
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 15728640) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php on line 332
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Data/Collection/Db.php on line 350
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 10747904) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/local/Mana/Core/Helper/Data.php on line 368
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 9961472) (tried to allocate 71 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 202
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 21757952) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Customer.php on line 655
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 4980736) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 1965
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[18-Sep-2012 05:56:07 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 323
+[18-Sep-2012 05:56:08 UTC] PHP Fatal error:  Out of memory (allocated 16777216) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Log.php on line 230
+[18-Sep-2012 05:56:08 UTC] PHP Fatal error:  Out of memory (allocated 15728640) (tried to allocate 81 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Text/List.php on line 34
+[18-Sep-2012 05:56:08 UTC] PHP Fatal error:  Out of memory (allocated 5242880) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 2943
+[18-Sep-2012 05:56:09 UTC] PHP Fatal error:  Out of memory (allocated 18350080) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/CatalogSearch/Helper/Data.php on line 104
+[18-Sep-2012 05:56:09 UTC] PHP Fatal error:  Out of memory (allocated 2621440) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Cache.php on line 363
+[18-Sep-2012 05:56:09 UTC] PHP Fatal error:  Out of memory (allocated 6029312) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Db/Ddl/Table.php on line 312
+[18-Sep-2012 05:56:09 UTC] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 523800 bytes) in Unknown on line 0
+[18-Sep-2012 05:56:11 UTC] PHP Fatal error:  Out of memory (allocated 9437184) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 328
+[18-Sep-2012 05:56:11 UTC] PHP Fatal error:  Out of memory (allocated 8650752) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Setup.php on line 330
+[18-Sep-2012 05:56:11 UTC] PHP Fatal error:  Out of memory (allocated 11010048) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Controller/Response/Abstract.php on line 749
+[18-Sep-2012 05:56:11 UTC] PHP Fatal error:  Out of memory (allocated 5767168) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1277
+[18-Sep-2012 05:56:11 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[18-Sep-2012 05:56:11 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_sqlite.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[18-Sep-2012 05:56:11 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/sqlite.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[18-Sep-2012 05:56:11 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[18-Sep-2012 05:56:11 UTC] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Session/Abstract.php on line 326
+[18-Sep-2012 05:56:11 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[18-Sep-2012 05:56:11 UTC] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 669
+[18-Sep-2012 05:56:11 UTC] PHP Fatal error:  Out of memory (allocated 9437184) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 328
+[18-Sep-2012 05:56:11 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[18-Sep-2012 19:02:56 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[18-Sep-2012 19:19:36 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[19-Sep-2012 12:04:51 UTC] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 669
+[19-Sep-2012 12:04:51 UTC] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Profiler.php on line 100
+[19-Sep-2012 12:04:51 UTC] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 7680 bytes) in /home/lys/public_html/app/Mage.php on line 558
+[19-Sep-2012 12:04:51 UTC] PHP Fatal error:  Out of memory (allocated 19922944) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[19-Sep-2012 12:04:51 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSeoLinks/Resource/Rewrite.php on line 58
+[19-Sep-2012 12:04:51 UTC] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Select.php on line 409
+[19-Sep-2012 12:04:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[19-Sep-2012 12:04:51 UTC] PHP Fatal error:  Out of memory (allocated 5767168) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1277
+[19-Sep-2012 12:04:51 UTC] PHP Fatal error:  Out of memory (allocated 22020096) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Resource/Customer.php on line 154
+[19-Sep-2012 12:04:51 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[19-Sep-2012 12:04:52 UTC] PHP Fatal error:  Out of memory (allocated 3407872) (tried to allocate 245050 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[19-Sep-2012 12:04:52 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[19-Sep-2012 12:04:52 UTC] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Session/Abstract.php on line 326
+[19-Sep-2012 12:04:55 UTC] PHP Fatal error:  Out of memory (allocated 19660800) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Paypal/Model/Config.php on line 503
+[19-Sep-2012 12:04:55 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[19-Sep-2012 12:04:55 UTC] PHP Fatal error:  Out of memory (allocated 24117248) (tried to allocate 85657 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 1074
+[19-Sep-2012 12:04:55 UTC] PHP Fatal error:  Out of memory (allocated 19922944) (tried to allocate 27 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 290
+[19-Sep-2012 17:38:54 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[20-Sep-2012 16:59:58 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 9961472) (tried to allocate 3 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 134
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 12058624) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/Mana/Filters/Resource/Filter2.php on line 224
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 9175040) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Abstract.php on line 238
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 23592960) (tried to allocate 43101 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 256
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 158
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 15728640) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Text/List.php on line 34
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 14942208) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Abstract.php on line 291
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 8650752) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Log.php on line 151
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 17301504) (tried to allocate 143 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Category.php on line 119
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 224
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Js.php on line 217
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 14942208) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Abstract.php on line 291
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 16252928) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Breadcrumbs.php on line 59
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 19398656) (tried to allocate 78 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Block/Cart/Abstract.php on line 59
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 20709376) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Sales/Block/Reorder/Sidebar.php on line 140
+[21-Sep-2012 00:39:54 UTC] PHP Fatal error:  Out of memory (allocated 14155776) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Session.php on line 78
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 1310720) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1037
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Select.php on line 409
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 323
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 7680 bytes) in /home/lys/public_html/app/Mage.php on line 558
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 12058624) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout/Update.php on line 190
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 201
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 26738688) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 165
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Model/Page.php on line 96
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 871
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 23330816) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Filter/Template/Tokenizer/Abstract.php on line 72
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Db/Select.php on line 1089
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 20185088) (tried to allocate 88 bytes) in /home/lys/public_html/app/code/core/Mage/PaypalUk/Block/Express/Shortcut.php on line 52
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Db/Select.php on line 1089
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[21-Sep-2012 00:40:01 UTC] PHP Fatal error:  Out of memory (allocated 30408704) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSuperSlider/Model/Price.php on line 20
+[21-Sep-2012 04:29:16 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 2400 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[21-Sep-2012 04:30:32 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[21-Sep-2012 11:10:57 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 592
+[21-Sep-2012 11:10:57 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 23518 bytes) in Unknown on line 0
+[21-Sep-2012 11:54:50 UTC] PHP Fatal error:  Maximum execution time of 1200 seconds exceeded in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 1003
+[21-Sep-2012 14:49:46 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 9600 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[21-Sep-2012 17:53:53 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[21-Sep-2012 17:53:53 UTC] PHP Fatal error:  Out of memory (allocated 22806528) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity.php on line 55
+[21-Sep-2012 17:53:53 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 908
+[21-Sep-2012 17:53:53 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[21-Sep-2012 17:53:53 UTC] PHP Fatal error:  Out of memory (allocated 24379392) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Helper/Map.php on line 49
+[21-Sep-2012 17:53:53 UTC] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 334
+[21-Sep-2012 17:53:54 UTC] PHP Fatal error:  Out of memory (allocated 20971520) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Model/Page.php on line 96
+[21-Sep-2012 17:53:54 UTC] PHP Fatal error:  Out of memory (allocated 8650752) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Log.php on line 151
+[21-Sep-2012 17:53:54 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/sqlite.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[21-Sep-2012 17:53:54 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[21-Sep-2012 17:53:57 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[21-Sep-2012 17:53:57 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 323
+[21-Sep-2012 17:53:57 UTC] PHP Fatal error:  Out of memory (allocated 22282240) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 996
+[21-Sep-2012 17:53:57 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Db/Select.php on line 1089
+[21-Sep-2012 17:53:57 UTC] PHP Fatal error:  Out of memory (allocated 9699328) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Loader.php on line 52
+[21-Sep-2012 17:53:57 UTC] PHP Fatal error:  Out of memory (allocated 9437184) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 328
+[21-Sep-2012 17:53:57 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Model/Page.php on line 96
+[21-Sep-2012 17:53:57 UTC] PHP Fatal error:  Out of memory (allocated 3670016) (tried to allocate 236859 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1322
+[21-Sep-2012 17:53:58 UTC] PHP Fatal error:  Out of memory (allocated 9175040) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Abstract.php on line 248
+[21-Sep-2012 17:53:58 UTC] PHP Fatal error:  Out of memory (allocated 20971520) (tried to allocate 30720 bytes) in /home/lys/public_html/app/design/frontend/em0006/default/template/page/1column.phtml on line 62
+[21-Sep-2012 17:53:58 UTC] PHP Fatal error:  Out of memory (allocated 18087936) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSeoLinks/Model/Url.php on line 58
+[21-Sep-2012 17:53:58 UTC] PHP Fatal error:  Out of memory (allocated 11796480) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/controllers/IndexController.php on line 36
+[21-Sep-2012 17:53:58 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Model/Page.php on line 96
+[21-Sep-2012 17:53:58 UTC] PHP Fatal error:  Out of memory (allocated 16515072) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[21-Sep-2012 17:53:58 UTC] PHP Fatal error:  Out of memory (allocated 12058624) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout/Update.php on line 190
+[21-Sep-2012 17:53:58 UTC] PHP Fatal error:  Out of memory (allocated 12320768) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Design/Package.php on line 345
+[21-Sep-2012 17:53:58 UTC] PHP Fatal error:  Out of memory (allocated 16515072) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Footer.php on line 39
+[22-Sep-2012 17:51:13 UTC] PHP Fatal error:  Out of memory (allocated 9175040) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Abstract.php on line 238
+[22-Sep-2012 17:51:13 UTC] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource.php on line 333
+[22-Sep-2012 17:51:13 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Db/Select.php on line 1089
+[22-Sep-2012 17:51:13 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[22-Sep-2012 17:51:13 UTC] PHP Fatal error:  Out of memory (allocated 4718592) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 945
+[22-Sep-2012 17:51:21 UTC] PHP Fatal error:  Out of memory (allocated 2621440) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Cache.php on line 363
+[22-Sep-2012 17:51:21 UTC] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 651
+[22-Sep-2012 17:51:21 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 424
+[22-Sep-2012 17:51:22 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 871
+[22-Sep-2012 17:51:22 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[22-Sep-2012 17:51:25 UTC] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource.php on line 333
+[22-Sep-2012 17:51:25 UTC] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 523800 bytes) in Unknown on line 0
+[22-Sep-2012 17:51:25 UTC] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 523800 bytes) in Unknown on line 0
+[22-Sep-2012 17:51:25 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_sqlite.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[22-Sep-2012 17:51:25 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/sqlite.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[22-Sep-2012 17:51:25 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[22-Sep-2012 17:51:25 UTC] PHP Fatal error:  Out of memory (allocated 15466496) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Head.php on line 255
+[22-Sep-2012 17:51:25 UTC] PHP Fatal error:  Out of memory (allocated 11796480) (tried to allocate 91 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/controllers/IndexController.php on line 36
+[22-Sep-2012 17:51:25 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Translate/Inline.php on line 265
+[22-Sep-2012 17:51:27 UTC] PHP Fatal error:  Out of memory (allocated 17301504) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Category.php on line 117
+[22-Sep-2012 17:51:27 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[22-Sep-2012 17:51:27 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Data/Collection/Db.php on line 350
+[22-Sep-2012 17:51:27 UTC] PHP Fatal error:  Out of memory (allocated 9699328) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Uri.php on line 199
+[22-Sep-2012 17:51:28 UTC] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 651
+[22-Sep-2012 17:51:28 UTC] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Select.php on line 409
+[22-Sep-2012 17:51:28 UTC] PHP Fatal error:  Out of memory (allocated 12320768) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Design/Package.php on line 345
+[22-Sep-2012 17:51:28 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 295
+[22-Sep-2012 17:51:28 UTC] PHP Fatal error:  Out of memory (allocated 3407872) (tried to allocate 245050 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[22-Sep-2012 17:51:28 UTC] PHP Fatal error:  Out of memory (allocated 14942208) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Abstract.php on line 302
+[22-Sep-2012 17:51:28 UTC] PHP Fatal error:  Out of memory (allocated 7340032) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Store.php on line 871
+[22-Sep-2012 17:51:29 UTC] PHP Fatal error:  Out of memory (allocated 786432) (tried to allocate 7680 bytes) in /home/lys/public_html/app/Mage.php on line 558
+[22-Sep-2012 17:51:29 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 323
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 22020096) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Resource/Customer.php on line 90
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 6029312) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Db/Ddl/Table.php on line 312
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 19660800) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Paypal/Model/Config.php on line 503
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 256
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 5767168) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1277
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 18874368) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Model/Cart.php on line 439
+[22-Sep-2012 17:51:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/pdo_mysql.so: failed to map segment from shared object: Cannot allocate memory in Unknown on line 0
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 334
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 21757952) (tried to allocate 5 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Customer.php on line 659
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 6815744) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Db/Select.php on line 1089
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Data/Collection/Db.php on line 350
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 9437184) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 328
+[22-Sep-2012 17:51:30 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 371
+[22-Sep-2012 17:51:31 UTC] PHP Fatal error:  Out of memory (allocated 29884416) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/local/Mana/Filters/Block/Filter.php on line 20
+[22-Sep-2012 17:51:32 UTC] PHP Fatal error:  Out of memory (allocated 28573696) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Collection.php on line 1193
+[23-Sep-2012 17:55:11 UTC] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Select.php on line 409
+[23-Sep-2012 17:55:20 UTC] PHP Fatal error:  Out of memory (allocated 15204352) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 36
+[23-Sep-2012 17:55:20 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Translate/Inline.php on line 265
+[23-Sep-2012 17:55:20 UTC] PHP Fatal error:  Out of memory (allocated 4980736) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 1965
+[23-Sep-2012 17:55:20 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 56 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Website/Collection.php on line 36
+[23-Sep-2012 17:55:20 UTC] PHP Fatal error:  Out of memory (allocated 13107200) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Visitor.php on line 155
+[23-Sep-2012 17:55:20 UTC] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Controller/Request/Http.php on line 412
+[23-Sep-2012 17:55:20 UTC] PHP Fatal error:  Out of memory (allocated 22282240) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 1135
+[23-Sep-2012 17:55:20 UTC] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 651
+[23-Sep-2012 17:55:20 UTC] PHP Fatal error:  Out of memory (allocated 19136512) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Helper/Data.php on line 266
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 2621440) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Cache.php on line 363
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 13893632) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Data.php on line 135
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 16252928) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config/Data.php on line 122
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 523800 bytes) in Unknown on line 0
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 371
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 22544384) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Config.php on line 328
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 334
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 13893632) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Data.php on line 145
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 14942208) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Abstract.php on line 291
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Profiler.php on line 100
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 424
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 11534336) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php on line 148
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Db/Collection/Abstract.php on line 36
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Js.php on line 217
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Translate/Inline.php on line 265
+[23-Sep-2012 17:55:21 UTC] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url/Rewrite.php on line 218
+[23-Sep-2012 17:55:22 UTC] PHP Fatal error:  Out of memory (allocated 19136512) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Helper/Data.php on line 226
+[23-Sep-2012 17:55:22 UTC] PHP Fatal error:  Out of memory (allocated 8912896) (tried to allocate 75 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 622
+[23-Sep-2012 17:55:22 UTC] PHP Fatal error:  Out of memory (allocated 20185088) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Resource/Helper/Mysql4.php on line 87
+[23-Sep-2012 17:55:22 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 224
+[23-Sep-2012 17:55:22 UTC] PHP Fatal error:  Out of memory (allocated 12058624) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout/Update.php on line 190
+[23-Sep-2012 17:55:22 UTC] PHP Fatal error:  Out of memory (allocated 21757952) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Customer.php on line 655
+[23-Sep-2012 17:55:22 UTC] PHP Fatal error:  Out of memory (allocated 23068672) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[23-Sep-2012 17:55:22 UTC] PHP Fatal error:  Out of memory (allocated 10747904) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/local/Mana/Core/Helper/Data.php on line 375
+[23-Sep-2012 17:55:26 UTC] PHP Fatal error:  Out of memory (allocated 9437184) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 328
+[23-Sep-2012 17:55:26 UTC] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url/Rewrite.php on line 218
+[23-Sep-2012 17:55:26 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[23-Sep-2012 17:55:26 UTC] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Session/Abstract.php on line 326
+[24-Sep-2012 06:35:47 UTC] PHP Fatal error:  Allowed memory size of 67108864 bytes exhausted (tried to allocate 8928 bytes) in /home/lys/public_html/lib/Varien/Image/Adapter/Gd2.php on line 51
+[24-Sep-2012 17:49:35 UTC] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 651
+[24-Sep-2012 17:49:35 UTC] PHP Fatal error:  Out of memory (allocated 5242880) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 2943
+[24-Sep-2012 17:49:35 UTC] PHP Fatal error:  Out of memory (allocated 19136512) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Checkout/Helper/Data.php on line 226
+[24-Sep-2012 17:49:35 UTC] PHP Fatal error:  Out of memory (allocated 24117248) (tried to allocate 87329 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 1074
+[24-Sep-2012 17:49:35 UTC] PHP Fatal error:  Out of memory (allocated 8388608) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Session/Abstract.php on line 326
+[24-Sep-2012 17:49:35 UTC] PHP Fatal error:  Out of memory (allocated 6029312) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Db/Ddl/Table.php on line 312
+[24-Sep-2012 17:49:35 UTC] PHP Fatal error:  Out of memory (allocated 14155776) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Persistent/Helper/Session.php on line 78
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 6291456) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Statement/Pdo.php on line 323
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 15990784) (tried to allocate 18 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Template/Links.php on line 224
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 9437184) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 328
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 17563648) (tried to allocate 1024 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 362
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 22020096) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Resource/Customer.php on line 154
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 16515072) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Footer.php on line 39
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 12320768) (tried to allocate 384 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Design/Package.php on line 345
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 3407872) (tried to allocate 245050 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 16515072) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Footer.php on line 39
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 4194304) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Data/Collection/Db.php on line 350
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 23855104) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 1926
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 4718592) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 822
+[24-Sep-2012 17:49:36 UTC] PHP Fatal error:  Out of memory (allocated 17301504) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Category.php on line 117
+[24-Sep-2012 17:49:37 UTC] PHP Fatal error:  Out of memory (allocated 20971520) (tried to allocate 30720 bytes) in /home/lys/public_html/app/design/frontend/em0006/default/template/page/1column.phtml on line 62
+[24-Sep-2012 17:49:37 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Js.php on line 217
+[24-Sep-2012 17:49:37 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Js.php on line 217
+[24-Sep-2012 17:49:37 UTC] PHP Fatal error:  Out of memory (allocated 4718592) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 945
+[24-Sep-2012 17:49:37 UTC] PHP Fatal error:  Out of memory (allocated 17563648) (tried to allocate 90 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 362
+[24-Sep-2012 17:49:37 UTC] PHP Fatal error:  Out of memory (allocated 16252928) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Breadcrumbs.php on line 59
+[24-Sep-2012 17:49:37 UTC] PHP Fatal error:  Out of memory (allocated 21757952) (tried to allocate 384 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Customer.php on line 657
+[24-Sep-2012 17:49:38 UTC] PHP Fatal error:  Out of memory (allocated 262144) (tried to allocate 523800 bytes) in Unknown on line 0
+[24-Sep-2012 17:49:38 UTC] PHP Fatal error:  Out of memory (allocated 22020096) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Resource/Customer.php on line 154
+[24-Sep-2012 17:49:38 UTC] PHP Fatal error:  Out of memory (allocated 22282240) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Entity/Abstract.php on line 1135
+[24-Sep-2012 17:49:38 UTC] PHP Fatal error:  Out of memory (allocated 17825792) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Block/Product/Abstract.php on line 571
+[24-Sep-2012 17:49:38 UTC] PHP Fatal error:  Out of memory (allocated 16252928) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[24-Sep-2012 17:49:38 UTC] PHP Fatal error:  Out of memory (allocated 11010048) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Controller/Response/Abstract.php on line 749
+[24-Sep-2012 17:49:38 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 33292288) (tried to allocate 81 bytes) in /home/lys/public_html/app/code/core/Mage/Adminhtml/Model/System/Config/Backend/File.php on line 184
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 27262976) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSeoLinks/Model/Url.php on line 112
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 7077888) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Store/Group/Collection.php on line 125
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 18087936) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterSeoLinks/Model/Url.php on line 112
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 371
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Profiler.php on line 100
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 7602176) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Store/Collection.php on line 163
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url/Rewrite.php on line 218
+[25-Sep-2012 17:51:35 UTC] PHP Fatal error:  Out of memory (allocated 3407872) (tried to allocate 245050 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 201
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 16515072) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Footer.php on line 39
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 14417920) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Session.php on line 181
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 5767168) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Abstract.php on line 1197
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 22020096) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Resource/Customer.php on line 154
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 6553600) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Select.php on line 338
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 8912896) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Controller/Varien/Front.php on line 313
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Controller/Request/Http.php on line 412
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 1835008) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[25-Sep-2012 17:51:36 UTC] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 651
+[25-Sep-2012 17:51:39 UTC] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 651
+[25-Sep-2012 17:51:39 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[25-Sep-2012 17:51:39 UTC] PHP Fatal error:  Out of memory (allocated 11534336) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Controller/Varien/Action.php on line 153
+[25-Sep-2012 17:51:39 UTC] PHP Fatal error:  Out of memory (allocated 11796480) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/controllers/IndexController.php on line 36
+[25-Sep-2012 17:51:39 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 148
+[25-Sep-2012 17:51:39 UTC] PHP Fatal error:  Out of memory (allocated 13107200) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Visitor.php on line 155
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 15466496) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Block/Html/Head.php on line 328
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 15204352) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 36
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 3670016) (tried to allocate 236859 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/App.php on line 1322
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 7602176) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Store/Collection.php on line 163
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 334
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 2621440) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Cache.php on line 363
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 56 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Website/Collection.php on line 36
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 7077888) (tried to allocate 82 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Store/Group/Collection.php on line 125
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 9437184) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url.php on line 328
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 17825792) (tried to allocate 79 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Block/Product/Abstract.php on line 571
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 5505024) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Db/Adapter/Pdo/Abstract.php on line 334
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 2883584) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 669
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 2097152) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Object.php on line 424
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 17039360) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Directory/Block/Currency.php on line 115
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 651
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 9175040) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Helper/Abstract.php on line 238
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 17563648) (tried to allocate 1024 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Abstract.php on line 362
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[26-Sep-2012 18:02:08 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[26-Sep-2012 18:02:09 UTC] PHP Fatal error:  Out of memory (allocated 14680064) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Helper/Layout.php on line 92
+[26-Sep-2012 18:02:09 UTC] PHP Fatal error:  Out of memory (allocated 14680064) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Page/Helper/Layout.php on line 92
+[26-Sep-2012 18:02:09 UTC] PHP Fatal error:  Out of memory (allocated 11272192) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Model/Page.php on line 96
+[26-Sep-2012 18:02:09 UTC] PHP Fatal error:  Out of memory (allocated 1048576) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Profiler.php on line 100
+[26-Sep-2012 18:02:09 UTC] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url/Rewrite.php on line 218
+[26-Sep-2012 18:02:09 UTC] PHP Fatal error:  Out of memory (allocated 11010048) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Controller/Response/Abstract.php on line 749
+[26-Sep-2012 18:02:09 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[26-Sep-2012 18:02:09 UTC] PHP Fatal error:  Out of memory (allocated 3145728) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Cache/Core.php on line 371
+[26-Sep-2012 18:02:09 UTC] PHP Fatal error:  Out of memory (allocated 9961472) (tried to allocate 72 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 204
+[26-Sep-2012 18:02:10 UTC] PHP Fatal error:  Out of memory (allocated 15204352) (tried to allocate 85 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Block/Template.php on line 36
+[26-Sep-2012 18:02:10 UTC] PHP Fatal error:  Out of memory (allocated 17301504) (tried to allocate 120 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Category.php on line 117
+[26-Sep-2012 18:02:10 UTC] PHP Fatal error:  Out of memory (allocated 12058624) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Layout/Update.php on line 190
+[26-Sep-2012 18:02:10 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 201
+[26-Sep-2012 18:02:10 UTC] PHP Fatal error:  Out of memory (allocated 10223616) (tried to allocate 122880 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 747
+[26-Sep-2012 18:02:10 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Translate/Inline.php on line 265
+[26-Sep-2012 18:02:10 UTC] PHP Fatal error:  Out of memory (allocated 17039360) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Directory/Block/Currency.php on line 115
+[27-Sep-2012 17:52:52 UTC] PHP Fatal error:  Out of memory (allocated 6029312) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Db/Ddl/Table.php on line 312
+[27-Sep-2012 17:52:52 UTC] PHP Fatal error:  Out of memory (allocated 20971520) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Helper/Data.php on line 197
+[27-Sep-2012 17:52:52 UTC] PHP Fatal error:  Out of memory (allocated 28573696) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Resource/Product/Collection.php on line 847
+[27-Sep-2012 17:52:52 UTC] PHP Fatal error:  Out of memory (allocated 21495808) (tried to allocate 82 bytes) in /home/lys/public_html/lib/Varien/Simplexml/Element.php on line 195
+[27-Sep-2012 17:52:54 UTC] PHP Fatal error:  Out of memory (allocated 21233664) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/local/ManaPro/FilterAjax/Model/Observer.php on line 88
+[27-Sep-2012 17:52:54 UTC] PHP Fatal error:  Out of memory (allocated 24117248) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Catalog/Model/Product.php on line 443
+[27-Sep-2012 17:52:54 UTC] PHP Fatal error:  Out of memory (allocated 22544384) (tried to allocate 122880 bytes) in /home/lys/public_html/app/code/core/Mage/Customer/Model/Customer.php on line 938
+[27-Sep-2012 17:52:57 UTC] PHP Fatal error:  Out of memory (allocated 8650752) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Setup.php on line 330
+[27-Sep-2012 17:52:57 UTC] PHP Fatal error:  Out of memory (allocated 8126464) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Zend/Controller/Request/Http.php on line 412
+[27-Sep-2012 17:52:57 UTC] PHP Fatal error:  Out of memory (allocated 3932160) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource.php on line 333
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 7864320) (tried to allocate 8386 bytes) in /home/lys/public_html/lib/Zend/Cache/Backend/File.php on line 962
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 8650752) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Log.php on line 151
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 4456448) (tried to allocate 83 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Resource/Website/Collection.php on line 36
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 6029312) (tried to allocate 30720 bytes) in /home/lys/public_html/lib/Varien/Db/Ddl/Table.php on line 312
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 4980736) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 1938
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 645
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url/Rewrite.php on line 218
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 2359296) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Locale.php on line 615
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 1572864) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Config.php on line 651
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 10485760) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Url/Rewrite.php on line 218
+[27-Sep-2012 17:52:58 UTC] PHP Fatal error:  Out of memory (allocated 12582912) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[27-Sep-2012 17:53:00 UTC] PHP Fatal error:  Out of memory (allocated 17301504) (tried to allocate 232 bytes) in /home/lys/public_html/app/code/core/Mage/Directory/Block/Currency.php on line 115
+[27-Sep-2012 17:53:00 UTC] PHP Fatal error:  Out of memory (allocated 16515072) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
+[27-Sep-2012 17:53:00 UTC] PHP Fatal error:  Out of memory (allocated 11010048) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Zend/Controller/Response/Abstract.php on line 723
+[27-Sep-2012 17:53:00 UTC] PHP Fatal error:  Out of memory (allocated 23592960) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Cms/Model/Resource/Block.php on line 69
+[27-Sep-2012 17:53:00 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/Mana/Core/Model/Object.php on line 123
+[27-Sep-2012 17:53:00 UTC] PHP Fatal error:  Out of memory (allocated 12320768) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Design/Package.php on line 345
+[27-Sep-2012 17:53:00 UTC] PHP Fatal error:  Out of memory (allocated 23330816) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/core/Mage/Eav/Model/Resource/Entity/Type.php on line 40
+[27-Sep-2012 17:53:00 UTC] PHP Fatal error:  Out of memory (allocated 12845056) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Core/Model/Translate/Inline.php on line 265
+[27-Sep-2012 17:53:00 UTC] PHP Fatal error:  Out of memory (allocated 9961472) (tried to allocate 74 bytes) in /home/lys/public_html/lib/Zend/Validate/Hostname.php on line 198
+[27-Sep-2012 17:53:02 UTC] PHP Fatal error:  Out of memory (allocated 10747904) (tried to allocate 7680 bytes) in /home/lys/public_html/app/code/local/Mana/Core/Helper/Data.php on line 348
+[27-Sep-2012 17:53:02 UTC] PHP Fatal error:  Out of memory (allocated 13369344) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/core/Mage/Log/Model/Resource/Visitor.php on line 148
+[27-Sep-2012 17:53:02 UTC] PHP Fatal error:  Out of memory (allocated 4980736) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Db/Adapter/Pdo/Mysql.php on line 1965
+[27-Sep-2012 17:53:02 UTC] PHP Fatal error:  Out of memory (allocated 11534336) (tried to allocate 30720 bytes) in /home/lys/public_html/app/code/local/Mana/Filters/Helper/Data.php on line 66
+[27-Sep-2012 17:53:03 UTC] PHP Fatal error:  Out of memory (allocated 17563648) (tried to allocate 7680 bytes) in /home/lys/public_html/lib/Varien/Autoload.php on line 93
