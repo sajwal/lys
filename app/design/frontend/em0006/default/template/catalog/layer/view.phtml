@@ -33,11 +33,11 @@
 ?>
 <?php if($this->canShowBlock()): ?>
 <div class="block block-layered-nav">
+<!--    <div class="lys_layered_nav">
+        <strong><h1><?php //echo $this->__('REFINE BY') ?></h1></strong>
+    </div>-->
     <div class="lys_layered_nav">
-        <strong><h1><?php echo $this->__('REFINE BY') ?></h1></strong>
-    </div>
-    <div class="lys_layered_nav">
-        <?php echo $this->getStateHtml() ?>
+        <?php //echo $this->getStateHtml() ?>
         <?php if($this->canShowOptions()): ?>
                 <dl id="narrow-by-list">
                  <?php $_filters = $this->getFilters() ?>
