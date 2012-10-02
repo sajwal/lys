@@ -51,9 +51,10 @@ Default layout, loads most of the pages
               	
 				<action method="addItem"><type>skin_js</type><name>js/em0006.js</name></action> 
 				<!--action method="addItem"><type>skin_js</type><name>js/carousel.js</name></action-->
-				
-				<action method="addItem"><type>skin_js</type><name>js/lys/jquery-1.7.js</name></action> 
-				<action method="addItem"><type>skin_js</type><name>js/lys/jquery-1.4.2.min.js</name></action>
+				<action method="addJs"><script>jquery/jquery.min.js</script></action>
+<!--                                <action method="addItem"><type>skin_js</type><name>js/lys/jQuery.min.js</name></action>-->
+<!--				<action method="addItem"><type>skin_js</type><name>js/lys/jquery-1.7.js</name></action> 
+				<action method="addItem"><type>skin_js</type><name>js/lys/jquery-1.4.2.min.js</name></action>-->
 				
 				
 				<!-- Product Page : Grid and List Lys -->
@@ -157,7 +158,7 @@ Default layout, loads most of the pages
             </block>
 
             <block type="core/text_list" name="before_body_end" as="before_body_end" translate="label">
-				<block type="core/text_copy" template="page/html/copy.html" />
+				<block type="core/text_list" template="page/html/copy.html" />
             </block>
         </block>
 
