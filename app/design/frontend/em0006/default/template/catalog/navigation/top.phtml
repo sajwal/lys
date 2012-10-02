@@ -22,7 +22,8 @@
 <?php
 $uri = $_SERVER['REQUEST_URI'];
 $pieces = explode("/", $uri);
-$uri_3 = $pieces[3];
+$uri_3 = end($pieces);
+//Mage::log($uri_3);
 
 if($uri_3 == "special-orders"){
 $active ="active";
@@ -46,6 +47,3 @@ $active ="";
 </div>
 </div>
 <div class="clearer">
-
-
-

@@ -5474,14 +5474,14 @@ color:#000 !important;
     visibility: hidden;
 }
 div.mini-cart-layer {
-    background: url("../images/view_shopping_cart.jpg") no-repeat scroll 0 0 transparent;
+    /*background: url("../images/view_shopping_cart.jpg") no-repeat scroll 0 0 transparent;*/
     height: 26px;
     padding: 0;
     right: 100px;
     width: 185px;
     z-index: 99;
-	float:right;
-	right:0px;
+    float:right;
+    right:0px;
 
 }
 .top-cart .top-btn-remove {

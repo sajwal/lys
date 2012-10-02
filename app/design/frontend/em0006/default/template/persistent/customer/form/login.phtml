@@ -2,7 +2,7 @@
 <div class="acount_wrapper">
 <div class="acount-cut-right">
 
-<div style="width:70%; margin: 0 auto;">
+<div class="account-midbox">
 
 <div class="account-title">
   <h2>Sign In</h2>
@@ -13,35 +13,31 @@
     <form action="<?php echo $this->getPostActionUrl() ?>" method="post" id="login-form">
       
         <div class="col-2 registered-users">
-                <div class="content">
-                <br/>
-                    <p style="color:#fff; text-transform:uppercase; font-size:16px;"><?php echo $this->__('If you are on the LYS Team, Sign in below.') ?></p>
-                    <ul class="form-list">
-                        <li>
-                            <label for="email" class="required"><?php echo $this->__('Email Address') ?> <em>*</em></label>
-                            <div class="input-box">
-                                <input type="text" name="login[username]" value="<?php echo $this->htmlEscape($this->getUsername()) ?>" id="email" class="input-text required-entry validate-email" title="<?php echo $this->__('Email Address') ?>" />
-                            </div>
-                        </li>
-                        <li>
-                            <label for="pass" class="required"><?php echo $this->__('Password') ?> <em>*</em></label>
-                            <div class="input-box">
-                                <input type="password" name="login[password]" class="input-text required-entry validate-password" id="pass" title="<?php echo $this->__('Password') ?>" />
-                            </div>
-                        </li>
-                        <?php echo $this->getChildHtml('persistent.remember.me'); ?>
-                    </ul>
-                    <?php echo $this->getChildHtml('persistent.remember.me.tooltip'); ?>
-                    
-                    <a href="<?php echo $this->getForgotPasswordUrl() ?>" style="color:#fff; margin-bottom:20px;"><?php echo $this->__('Forgot Your Password?') ?></a>
-                </div>
-            </div>
-        <div class="col2-set">
+            <div class="content">
+                <p><?php echo $this->__('If you are on the LYS Team, Sign in below.') ?></p>
+                <ul class="form-list">
+                    <li>
+                        <label for="email" class="required"><?php echo $this->__('Email Address') ?> <em>*</em></label>
+                        <div class="input-box">
+                            <input type="text" name="login[username]" value="<?php echo $this->htmlEscape($this->getUsername()) ?>" id="email" class="input-text required-entry validate-email" title="<?php echo $this->__('Email Address') ?>" />
+                        </div>
+                    </li>
+                    <li>
+                        <label for="pass" class="required"><?php echo $this->__('Password') ?> <em>*</em></label>
+                        <div class="input-box">
+                            <input type="password" name="login[password]" class="input-text required-entry validate-password" id="pass" title="<?php echo $this->__('Password') ?>" />
+                        </div>
+                    </li>
+                    <?php echo $this->getChildHtml('persistent.remember.me'); ?>
+                </ul>
+                <?php echo $this->getChildHtml('persistent.remember.me.tooltip'); ?>
 
-            <div style="margin-left:-7px;">
-        
-               <button type="submit"  title="<?php echo $this->__('Login') ?>" name="send" id="send2" ><span><span><?php echo $this->__('Login') ?></span></span></button>
-              
+                <a href="<?php echo $this->getForgotPasswordUrl() ?>" style="color:#fff; margin-bottom:20px;"><?php echo $this->__('Forgot Your Password?') ?></a>
+            </div>
+        </div>
+        <div class="col2-set">
+            <div class="btn-wrapper">
+                <span><input type="Submit" value="Login" name="Submit" ></span>
             </div>
         </div>
         <?php if (Mage::helper('checkout')->isContextCheckout()): ?>
