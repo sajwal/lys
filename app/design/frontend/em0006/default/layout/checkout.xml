@@ -323,6 +323,9 @@ One page checkout main layout
 		<!-- Mage_Checkout -->
         <remove name="left"/>
 
+        <reference name="head">
+            <action method="addItem"><type>skin_js</type><name>js/lys/jQuery.min.js</name></action>
+        </reference>
         <reference name="root">
             <action method="setTemplate"><template>page/2columns-right.phtml</template></action>
 			
