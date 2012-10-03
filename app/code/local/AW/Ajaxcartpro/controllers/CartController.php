@@ -45,4 +45,8 @@ class AW_Ajaxcartpro_CartController extends Mage_Core_Controller_Front_Action
         if($_quote && $_quote->getHasError()) $response->setError('quote error');
         $response->send();
     }
+    public function updatecartAction(){
+        $this->loadLayout();
+        $this->renderLayout();
+    }
 }
