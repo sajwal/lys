@@ -14,6 +14,25 @@
             <block type="core/template" template="ajaxcartpro/confirm.phtml" name="aw.ajaxcartpro.confirm" />
         </reference>
     </default>
+    
+    <ajaxcartpro_cart_updatecart>
+        <reference name="root">
+            <action method="setTemplate"><template>page/empty.phtml</template></action>
+        </reference>
+        <reference name="content">
+            <block type="checkout/cart_sidebar" name="cart_cartheader" template="checkout/cart/cartheader.phtml" before="-">
+                <action method="addItemRender"><type>simple</type><block>checkout/cart_item_renderer</block><template>checkout/cart/cartheader/default.phtml</template></action>
+                <action method="addItemRender"><type>grouped</type><block>checkout/cart_item_renderer_grouped</block><template>checkout/cart/cartheader/default.phtml</template></action>
+                <action method="addItemRender"><type>configurable</type><block>checkout/cart_item_renderer_configurable</block><template>checkout/cart/cartheader/default.phtml</template></action>
+
+                <block type="core/text_list" name="cart_cartheader.extra_actions" as="extra_actions" translate="label" module="checkout">
+                    <label>Shopping Cart Cartheader Extra Actions</label>
+                </block>
+            </block>
+        </reference>
+
+    </ajaxcartpro_cart_updatecart>
+    
     <ajaxcartpro_cart>
         <remove name="right"/>
         <remove name="left"/>
