@@ -30,21 +30,10 @@
 ?>
 <div class="ajaxcartpro_confirm" style="display: none;">
 	<p><span id="acp_product_name"><?php echo $this->__('Item(s)') ?></span><?php echo $this->__(' added to cart') ?></p>
-		<a href="#" id="aw_acp_continue" class="focus" onclick="$$('.ajaxcartpro_confirm')[0].style.display='none';return false;" onmouseup="showHeaderCart()"><?php echo $this->__('Continue shopping')?><?php echo Mage::helper('ajaxcartpro')->displayCountdown() ?></a>
+		<a href="#" id="aw_acp_continue" class="focus" onclick="$$('.ajaxcartpro_confirm')[0].style.display='none';return false; "><?php echo $this->__('Continue shopping')?><?php echo Mage::helper('ajaxcartpro')->displayCountdown() ?></a>
 
 	<?php echo $this->__('or')?>
 	<a href="<?php echo Mage::getUrl('checkout/cart')?>" id="aw_acp_checkout">
 		<?php echo $this->__('View cart &amp; checkout')?>
 	</a>
 </div>
-
-<script type="text/javascript">
-    function showHeaderCart(){
-        $j(".top-cart > .block-title").addClass('mini-cart-active');
-        $j('#topCartContent').slideDown('slow', function() {
-            $j('#topCartContent').delay(3000).slideUp('slow', function(){
-                $j(".top-cart > .block-title").removeClass('mini-cart-active');
-            });
-        });
-    }
-</script>
