@@ -117,6 +117,18 @@ function updateCartBar(resp){
 }
 
 function updateCartView(resp){
+	
+	// -- Start --
+	url = "http://127.0.0.1/lys/index.php/ajaxcartpro/cart/updatecart/";
+	showProgressAnimation();
+	new Ajax.Request(url, {
+		method: 'post',
+		parameters : {updated : 1},
+		onSuccess: function(msg) {
+			$('lyslocker').update(msg.responseText);
+		}
+	});
+// -- end --
     if (AW_ACP.isCartPage) return updateBigCartView(resp);
 
     var __cartObj = $$(aw_cartDivClass)[0];
