@@ -47,14 +47,9 @@
             
                
                    
+
                    
-                   
-                   
-                   
-                   
-                   
-                   
-                     <div class="clearer"></div>
+            <div class="clearer"></div>
             <div class="grid-price mrp-color" id="grid-price">
             <h4> <?php echo 'LYS Rs. '.$lys_price; ?></h4>
              </div>
@@ -107,7 +102,13 @@
                         <?php echo $_helper->productAttribute($_product, $_product->getShortDescription(), 'short_description') ?>
                        
                     </div>
-
+            
+                    <?php if($_product->isSaleable()): ?>
+                        <p><button type="button" title="<?php echo $this->__('Add to Cart') ?>" class="indibutton list-indibutton" onclick="setLocation('<?php echo $this->getAddToCartUrl($_product) ?>')"><span><span><?php echo $this->__('Add to Cart') ?></span></span></button></p>
+                    <?php else: ?>
+                        <p class="availability out-of-stock"><span><?php echo $this->__('Out of stock') ?></span></p>
+                    <?php endif; ?>
+                        
                 </div>
             </div>
         </li>

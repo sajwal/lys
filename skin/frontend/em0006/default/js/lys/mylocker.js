@@ -38,30 +38,30 @@ function startTimer()
 	}, 10000);
 }
 
-jQuery(document).ready(function(){
-	jQuery('.mini-cart-layer .top-cart .block-title #cartHeader').click(function(){
-		toggleTopCart();
-	});
-
-	jQuery('.mini-cart-layer .top-cart .block-title #cartHeader').mouseover(function(){
-		clearTimeout(timer);
-	}).mouseout(function(){
-		startTimer();
-	});
-
-	jQuery("#topCartContent").mouseover(function() {
-		clearTimeout(timer);
-	}).mouseout(function(){
-		startTimer();
-	});
-	
-	
-	$j("#afterlogin").mouseover(function(){
-	$j(".returns").hide()
-	$j("#lyslocker").hide()
-	});
-	$j("#afterlogin").mouseout(function(){
-	$j(".returns").show()
-	$j("#lyslocker").show()
-	});
-});
+//jQuery(document).ready(function(){
+//	jQuery('.mini-cart-layer .top-cart .block-title #cartHeader').click(function(){
+//		toggleTopCart();
+//	});
+//
+//	jQuery('.mini-cart-layer .top-cart .block-title #cartHeader').mouseover(function(){
+//		clearTimeout(timer);
+//	}).mouseout(function(){
+//		startTimer();
+//	});
+//
+//	jQuery("#topCartContent").mouseover(function() {
+//		clearTimeout(timer);
+//	}).mouseout(function(){
+//		startTimer();
+//	});
+//	
+//	
+//	$j("#afterlogin").mouseover(function(){
+//	$j(".returns").hide()
+//	$j("#lyslocker").hide()
+//	});
+//	$j("#afterlogin").mouseout(function(){
+//	$j(".returns").show()
+//	$j("#lyslocker").show()
+//	});
+//});

@@ -11,12 +11,12 @@
 			<?php if ($this->getIsLinkMode() || !$this->getIsNeedToDisplaySideBar()):?>
 				<div class="block-title no-items">
 					<ul class="links cart-link">
-						<li ><a href="<?php echo $this->getUrl('checkout/cart'); ?>" rel="nofollow"><?php echo $_myCart ?></a></li>
+						<li><a href="<?php echo $this->getUrl('checkout/cart'); ?>" rel="nofollow"><?php echo $_myCart ?></a></li>
 					</ul>
 				</div>
 			<?php else:?>
 				<div class="block-title<?php if(!$_cartQty) { echo (' no-items'); } ?>">
-					<span id="cartHeader"><?php echo $_myCart ?></span>
+					<span id="cartHeader"><a href="<?php echo $this->getUrl('checkout/cart'); ?>"><?php echo $_myCart ?></a></span>
 				</div>
 				<div id="topCartContent" class="block-content" style="display:none">
 					<div class="inner-wrapper"><?php /*extra div to smooth slideUp and slideDown*/ ?>
@@ -59,3 +59,51 @@
 		</div>
 	<?php endif;?>
 </div>
+
+<?php if($this->getRequest()->getParam('updated')): ?>
+<script type="text/javascript">
+// <![CDATA[ 
+    $j = jQuery.noConflict();
+    $j(document).ready(function(){
+        $j('.ajaxcartpro_progress').fadeOut();
+        $j('.ajaxcartpro_progress').css('display','none');
+        $j(".top-cart > .block-title").addClass('mini-cart-active');
+        $j('#topCartContent').slideDown('slow', function() {
+            $j('#topCartContent').delay(3000).slideUp('slow', function(){
+                $j(".top-cart > .block-title").removeClass('mini-cart-active');
+            });
+        });
+    });
+</script>
+<?php endif;?>
+<script type="text/javascript">
+// <![CDATA[ 
+    jQuery(document).ready(function(){
+            jQuery('.mini-cart-layer .top-cart .block-title #cartHeader').click(function(){
+                    toggleTopCart();
+            });
+
+            jQuery('.mini-cart-layer .top-cart .block-title #cartHeader').mouseover(function(){
+                    clearTimeout(timer);
+            }).mouseout(function(){
+                    startTimer();
+            });
+
+            jQuery("#topCartContent").mouseover(function() {
+                    clearTimeout(timer);
+            }).mouseout(function(){
+                    startTimer();
+            });
+
+
+            $j("#afterlogin").mouseover(function(){
+            $j(".returns").hide();
+            $j("#lyslocker").hide();
+            });
+            $j("#afterlogin").mouseout(function(){
+            $j(".returns").show();
+            $j("#lyslocker").show();
+            });
+    });
+// ]]>
+</script>

@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Aureatelabs_Disableshipmethod>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Aureatelabs_Disableshipmethod>
+    </modules>
+</config>
