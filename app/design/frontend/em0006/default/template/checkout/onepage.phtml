@@ -5,7 +5,17 @@
 <script type="text/javascript">countryRegions = <?php echo $this->helper('directory')->getRegionJson() ?></script>
 <ol class="opc" id="checkoutSteps">
 
-<?php $i=0; foreach($this->getSteps() as $_stepId => $_stepInfo): ?>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+<?php $i=0; $steps=count($this->getSteps()); foreach($this->getSteps() as $_stepId => $_stepInfo): ?>
 <?php if (!$this->getChild($_stepId) || !$this->getChild($_stepId)->isShow()): continue; endif; $i++ ?>
     <li id="opc-<?php echo $_stepId ?>" class="section allow <?php echo !empty($_stepInfo['allow'])?' allow':'' ?><?php echo !empty($_stepInfo['complete'])?' saved':'allow' ?>">
         <div class="step-title">
@@ -20,7 +30,7 @@
             <div class="checkout-cart-middle"><?php echo $this->getChildHtml($_stepId) ?></div>
              <div class="checkout-cart-bottom"></div>
         </div>
-        <?php if($i != 6): ?>
+        <?php if($i != $steps): ?>
         <div class="opc_divider"></div>
         <?php endif; ?> 
     </li>
