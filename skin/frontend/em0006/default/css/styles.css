@@ -2752,6 +2752,9 @@ border-left:1px solid #F3F7F7;border-right:1px solid #F3F7F7;
 .opc .checkout-agreements .agreement-content { background-color:#fff; border-color:#e4e4e4; padding:5px; }
 .opc .checkout-agreements .agree { padding-left:6px; }
 
+.progress-back { cursor: pointer; }
+.progress-back span { color: #000000; }
+
 /* Centinel */
 .centinel {}
 .centinel .authentication { border:1px solid #ddd; background:#fff; }
@@ -5468,16 +5471,14 @@ div.mini-cart-layer-down{background-position: 0 bottom;}
     height: 45px;
     overflow: hidden;
     text-align: left;
-    width: 185px;
+    width: 155px;
     color:#E96608;
     font-size:13px;
     text-transform:uppercase;
     background:url("../images/icons/locker.png") no-repeat scroll 140px 5px ;
     padding:10px 0px 0px 30px;
-
-
 }
-
+#cartHeader a { color:#E96608;  }
 .mini-cart-active{
     background:#231F20;
     border-radius:10px 10px 0px 0px;
