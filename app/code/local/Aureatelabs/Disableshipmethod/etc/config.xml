@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <modules>
+        <Aureatelabs_Disableshipmethod>
+            <version>1.0.0</version>
+        </Aureatelabs_Disableshipmethod>
+    </modules>
+    <global>
+        <models>
+            <sales>
+                <rewrite>
+                    <service_quote>Aureatelabs_Disableshipmethod_Model_Service_Quote</service_quote>
+                </rewrite>
+            </sales>
+        </models>
+        <blocks>
+            <checkout>
+                <rewrite>
+                    <onepage>Aureatelabs_Disableshipmethod_Block_Onepage</onepage>
+                </rewrite>
+            </checkout>
+            <checkout>
+                <rewrite>
+                    <onepage_shipping_method>Aureatelabs_Disableshipmethod_Block_Onepage_Shipping_Method</onepage_shipping_method>
+                </rewrite>
+
+            </checkout>
+        </blocks>
+        <helpers>
+            <aureatelabs>
+                <class>Aureatelabs_Disableshipmethod_Helper</class>
+            </aureatelabs>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <checkout>
+                <args>
+                    <modules>
+                        <Aureatelabs_Disableshipmethod before="Mage_Checkout">Aureatelabs_Disableshipmethod</Aureatelabs_Disableshipmethod>
+                    </modules>
+                </args>
+            </checkout>
+        </routers>
+    </frontend>
+</config>
