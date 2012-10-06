@@ -417,6 +417,7 @@ function addEffectACP(obj, effect)
 
 
 function updateDeleteLinks(){
+	return;
     var tmpLinks = document.links;
     for (i=0; i<tmpLinks.length; i++){
         if (tmpLinks[i].href.search('checkout/cart/delete') != -1){
