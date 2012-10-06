@@ -8,266 +8,275 @@
 <div class="clearer"></div>
 <div class="product-box-container" >
 
-
-
- 	<div class="fl product-box-left">
-    	 <div class="product-box-head">
-            <h4>Item Code : <?php echo nl2br($_product->getSku()) ?></h4>
- 		</div>
-	</div>
-    <div class="product-box-content">
-    <!-- Left Side -->
-    <div style="float:left; width:52%;">
-    
-    <div style="background:#ececec">
-            <!-- Display none to this for configurables total -->
-            <div style="display:none">
-			<?php echo $this->getPriceHtml($_product) ?>
-            </div>
-            <!-- -->
-            
-            
-            
-             
-             <div class="productname-box" style="margin-top:10px; margin-left:2%; margin-bottom:10px;">
-              <h3><?php echo $_product->getAttributeText('manufacturer');?></h3>
-            <h2><?php echo $_helper->productAttribute($_product, $_product->getName(), 'name') ?></h2>
-            
-            <?php $lys_price = number_format($_product->getFinalPrice(('price'),0)); ?>
-			<?php $mrp_price = number_format($_product->getPrice(),0); ?>
-            
-            <h3>LYS Price : Rs. <?php echo $lys_price; ?></h3>
-             <?php if ($lys_price != $mrp_price): ?>
-            <h2 style="text-decoration:line-through !important; font-weight:bold">MRP : Rs. <?php echo $mrp_price; ?></h2>
-             <?php endif; ?>
-             
-             
-             <?php
-             $_finalPrice = $this->helper('tax')->getPrice($_product, $_product->getFinalPrice());
-             $_regularPrice = $this->helper('tax')->getPrice($_product, $_product->getPrice());
-             if ($_regularPrice != $_finalPrice):
-             $getpercentage = number_format($_finalPrice / $_regularPrice * 100, 2);
-             $finalpercentage = 100 - $getpercentage;     
-             echo '<h1>You Save '.number_format($finalpercentage, 0).'%</h1>' ;     
-             endif;?>
-            
-            
-            
-            <?php if(!$_product->isSaleable()): ?><div style="color:red; font-size:12px; font-weight:bold; line-height:40px; position:relative; left:14px;">Currently Out of Stock</div><?php endif; ?>
-            <h5>Delivered in 1-7 Business Days</h5>
-             </div>
-             
-             
-             
-             
-             
-              <!-- Product Attributes -->
-            <div class="productprice-box" style="margin-top:10px; margin-left:2%; margin-right:2%; margin-bottom:10px;">
-            
-             <form action="<?php echo $this->getSubmitUrl($_product) ?>" method="post" id="product_addtocart_form"<?php if($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
-             <div class="no-display">
-                    <input type="hidden" name="product" value="<?php echo $_product->getId() ?>" />
-                    <input type="hidden" name="related_product" id="related-products-field" value="" />
-       		</div>
-              <?php echo $this->getTierPriceHtml() ?>
-            <?php //echo $this->getChildHtml('extrahint') ?>
-
-            <?php if (!$this->hasOptions()):?>
-                <div class="options">
-                    <?php //if($_product->isSaleable()): ?>
-
-					<div class="dummyopt">
-                   <label>Size</label>
-                    <select name="" disabled="disabled">
-                      <option>No Options</option>
-                    </select>
-                    </div>
-
-					<div  class="dummyopt">
-                     <label>Color</label>
-                    <select name="" disabled="disabled">
-                      <option>No Options</option>
-                    </select>
-					</div>
- <p><h4>Total : Rs. <?php echo $lys_price; ?></h4></p>
-               		<?php echo $this->getChildHtml('addtocart') ?>
-                   
-               		 <?php //endif; ?>
-         
-       <?php echo $this->getChildHtml('addto') ?>
-
-                </div>
-               
-            <?php endif; ?>
-            
-            
-              <?php echo $this->getChildHtml('other');?>
-
-            <?php //if ($_product->isSaleable() && $this->hasOptions()):
-		  if ($this->hasOptions()): ?>
-                <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
-            <?php endif;?>
-            
-                    <?php //if ($_product->isSaleable() && $this->hasOptions()):
-			  if ($this->hasOptions()): ?>
-            <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
-        <?php endif;?>
-               </form>             
-            </div>
-             <div class="clearer"></div>
-            <!-- -->
-            </div>
-            
-           
-            
-            
-            <div class="product-box-head2" style="margin-top:10px;">
-            <h4>Features</h4>
-            </div>
-             <div class="product-box-content2">  
-            <div style="position:relative">
-            <div id="scrollbar">
-			<div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
-			
-            <div class="viewport">
-            
-            
-		<div class="overview">
-       			 <div>
-		<?php foreach ($this->getChildGroup('detailed_info', 'getChildHtml') as $alias => $html):?>
-                <div class="product-desc">
-                    <?php if ($title = $this->getChildData($alias, 'title')):?>
-                    <?php echo $this->escapeHtml($title); ?>
-                    <?php endif;?>
-                    <?php echo $html; ?>
-                </div>
-        <?php endforeach;?>
-		<?php echo $this->getChildHtml('upsell_products') ?>
-        <?php echo $this->getChildHtml('product_additional_data') ?>
-		</div>
-                
-			<?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?>
-
-
- <?php
-$attributeSetName = Mage::getModel('eav/entity_attribute_set')->load($_product->getAttributeSetId())->getAttributeSetName();			
-			
-if($attributeSetName == "Decathlon Product") {
-$attributes = $_product->getAttributes();
-$attributetitle1  = $attributes['attributetitle1']->getFrontend()->getValue($_product);
-$attributevalue1  = $attributes['attributevalue1']->getFrontend()->getValue($_product);
-$attributetitle2  = $attributes['attributetitle2']->getFrontend()->getValue($_product);
-$attributevalue2  = $attributes['attributevalue2']->getFrontend()->getValue($_product);
-$attributetitle3  = $attributes['attributetitle3']->getFrontend()->getValue($_product);
-$attributevalue3  = $attributes['attributevalue3']->getFrontend()->getValue($_product);
-$attributetitle4  = $attributes['attributetitle4']->getFrontend()->getValue($_product);
-$attributevalue4  = $attributes['attributevalue4']->getFrontend()->getValue($_product);
-$attributetitle5  = $attributes['attributetitle5']->getFrontend()->getValue($_product);
-$attributevalue5  = $attributes['attributevalue5']->getFrontend()->getValue($_product);
-$attributetitle6  = $attributes['attributetitle6']->getFrontend()->getValue($_product);
-$attributevalue6  = $attributes['attributevalue6']->getFrontend()->getValue($_product);
-$attributetitle7  = $attributes['attributetitle7']->getFrontend()->getValue($_product);
-$attributevalue7  = $attributes['attributevalue7']->getFrontend()->getValue($_product);
-$attributetitle8  = $attributes['attributetitle8']->getFrontend()->getValue($_product);
-$attributevalue8  = $attributes['attributevalue8']->getFrontend()->getValue($_product);
-$attributetitle9  = $attributes['attributetitle9']->getFrontend()->getValue($_product);
-$attributevalue9  = $attributes['attributevalue9']->getFrontend()->getValue($_product);
-$attributetitle10 = $attributes['attributetitle10']->getFrontend()->getValue($_product);
-$attributevalue10 = $attributes['attributevalue10']->getFrontend()->getValue($_product);
-$attributetitle11 = $attributes['attributetitle11']->getFrontend()->getValue($_product);
-$attributevalue11 = $attributes['attributevalue11']->getFrontend()->getValue($_product);
-$attributetitle12 = $attributes['attributetitle12']->getFrontend()->getValue($_product);
-$attributevalue12 = $attributes['attributevalue12']->getFrontend()->getValue($_product);
-
-
-if($attributevalue1 !=""){
-echo '<h3>'.$attributetitle1.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue1.'</a>';
-}
-if($attributevalue2 !=""){
-echo '<h3>'.$attributetitle2.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue2.'</a>';
-}
-
-if($attributevalue3 !=""){
-echo '<h3>'.$attributetitle3.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue3.'</a>';
-}
-
-if($attributevalue4 !=""){
-echo '<h3>'.$attributetitle4.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue4.'</a>';
-}
-
-if($attributevalue5 !=""){
-echo '<h3>'.$attributetitle5.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue5.'</a>';
-}
-
-if($attributevalue6 !=""){
-echo '<h3>'.$attributetitle6.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue6.'</a>';
-}
-
-if($attributevalue7 !=""){
-echo '<h3>'.$attributetitle7.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue7.'</a>';
-}
-
-if($attributevalue8 !=""){
-echo '<h3>'.$attributetitle8.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue8.'</a>';
-}
-
-if($attributevalue9 !=""){
-echo '<h3>'.$attributetitle9.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue9.'</a>';
-}
-
-if($attributevalue10 !=""){
-echo '<h3>'.$attributetitle10.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue10.'</a>';
-}
-
-if($attributevalue11 !=""){
-echo '<h3>'.$attributetitle11.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue11.'</a>';
-}
-
-if($attributevalue12 !=""){
-echo '<h3>'.$attributetitle12.'</h3>';
-echo '<a class="overviewdescription">'.$attributevalue12.'</a>';
-}
-
-}
-
-?>
-<div style="margin-bottom:10px;"></div>
-</div></div></div></div></div>
-            
-            
-            
-            
-
-    
-    </div>
-    <!-- End of left side -->
-    
-    
-    <!-- Right Side -->
-    <div style="float:right; background:#ececec; width:46%; margin-left:2%">
-        <!-- Product Image -->
- <div class="product-box-pic">
-       <div class="product-img-box">
-        <?php echo $this->getChildHtml('media') ?>
+    <div class="fl product-box-left">
+        <div class="product-box-head">
+            <h4 class="left prod-manuf-name"><span class="prod-manuf"><?php echo $_product->getAttributeText('manufacturer'); ?></span> <span class="prod-name"><?php echo $_product->getName(); ?></span></h4>
+            <h4 class="right prod-sku">Item Code <?php echo nl2br($_product->getSku()) ?></h4>
         </div>
-  
- </div>
-    <!-- -->
     </div>
-    <!-- -->
-    <div class="clearer" style="margin-bottom:40px;"></div>
-	</div>
+    <div class="product-box-content">
+        <!-- Right Side -->
+        <div class="prod-box-right">
+            <div class="prod-right-sub1">
+                <!-- Display none to this for configurables total -->
+                <div style="display:none">
+                    <?php echo $this->getPriceHtml($_product) ?>
+                </div>
+                <!-- -->
+
+                <div class="productname-box box1">
+                    <div class="inner">
+                        <?php $lys_price = number_format($_product->getFinalPrice(('price'), 0)); ?>
+                        <?php $mrp_price = number_format($_product->getPrice(), 0); ?>
+
+                        <h3>LYS Price Rs. <?php echo $lys_price; ?></h3>
+                        <?php if ($lys_price != $mrp_price): ?>
+                            <h2><span>MRP : Rs. <?php echo $mrp_price; ?></span></h2>
+                        <?php endif; ?>
+
+
+                        <?php
+                        $_finalPrice = $this->helper('tax')->getPrice($_product, $_product->getFinalPrice());
+                        $_regularPrice = $this->helper('tax')->getPrice($_product, $_product->getPrice());
+                        if ($_regularPrice != $_finalPrice):
+                            $getpercentage = number_format($_finalPrice / $_regularPrice * 100, 2);
+                            $finalpercentage = 100 - $getpercentage;
+                            echo '<h1>You Save ' . number_format($finalpercentage, 0) . '%</h1>';
+                        endif;
+                        ?>
+                    </div>
+                </div>
+                <div class="productname-box box2">
+                    <div class="inner">
+                        <img src="<?php echo $this->getSkinUrl('images/lys/shipping.gif') ?>" alt="Shipping" />
+                        <?php if (!$_product->isSaleable()): ?><div class="prod-out-of-stock">Currently Out of Stock</div><?php endif; ?>
+                        <h5>1-<?php echo $_product->getShippingDays()>0 ? $_product->getShippingDays() : 7 ?> Business Days</h5>
+                    </div>
+                </div>
+                <div class="productname-box box3">
+                    <div class="inner">
+                        <?php echo $this->getChildHtml('product_attributes_placeholder'); ?>
+                        <h5>Authentic Product</h5>
+                    </div>
+                </div>
+                <div class="clearer"></div>
+
+                <!-- Product Attributes -->
+                <div class="productprice-box box4">
+
+                    <form action="<?php echo $this->getSubmitUrl($_product) ?>" method="post" id="product_addtocart_form"<?php if ($_product->getOptions()): ?> enctype="multipart/form-data"<?php endif; ?>>
+                        <div class="no-display">
+                            <input type="hidden" name="product" value="<?php echo $_product->getId() ?>" />
+                            <input type="hidden" name="related_product" id="related-products-field" value="" />
+                        </div>
+                        <?php echo $this->getTierPriceHtml() ?>
+                        <?php //echo $this->getChildHtml('extrahint')  ?>
+
+                        <?php if (!$this->hasOptions()): ?>
+                        <div class="options">
+
+                            <div class="dummyopt">
+                                <label>Size</label>
+                                <select name="" disabled="disabled">
+                                    <option>No Options</option>
+                                </select>
+                            </div>
+
+                            <div  class="dummyopt">
+                                <label>Color</label>
+                                <select name="" disabled="disabled">
+                                    <option>No Options</option>
+                                </select>
+                            </div>
+                            
+                            <?php if ($_product->isSaleable() && !$_product->isGrouped()): ?>
+                            <div class="dummyopt">
+                                <label>Qty</label>
+                                <input type="text" name="qty" id="qty" maxlength="12" value="<?php echo $this->getProductDefaultQty() * 1 ?>" title="<?php echo $this->__('Qty') ?>" class="input-text qty" />
+                            </div>
+                            <?php endif; ?>
+
+                        </div>
+                        <div class="clearer"></div>
+                        <div class="add-bottom">
+                            <p><h4>Total : Rs. <?php echo $lys_price; ?></h4></p>
+                            <div class="add-to-btn">
+                                <?php $buttonTitle = $this->__('Add to Locker'); ?>
+                                <button type="button" title="<?php echo $buttonTitle ?>" class="indibutton" onclick="productAddToCartForm.submit(this)"><span><span><?php echo $buttonTitle ?></span></span></button>
+                                <?php echo $this->getChildHtml('addto') ?>
+                            </div>
+                        </div>
+
+                        <?php endif; ?>
+
+
+                        <?php echo $this->getChildHtml('other'); ?>
+
+                        <?php //if ($_product->isSaleable() && $this->hasOptions()):
+                        if ($this->hasOptions()):
+                        ?>
+                            <?php echo $this->getChildChildHtml('container1', '', true, true) ?>
+                        <?php endif; ?>
+
+                        <?php //if ($_product->isSaleable() && $this->hasOptions()):
+                        if ($this->hasOptions()):
+                        ?>
+                            <?php echo $this->getChildChildHtml('container2', '', true, true) ?>
+                        <?php endif; ?>
+                    </form>             
+                </div>
+                <div class="clearer"></div>
+                <!-- -->
+            </div>
+
+
+
+
+            <div class="product-box-head2" style="margin-top:10px;">
+                <h4>Features</h4>
+            </div>
+            <div class="product-box-content2">  
+                <div style="position:relative">
+                    <div id="scrollbar">
+                        <div class="scrollbar"><div class="track"><div class="thumb"><div class="end"></div></div></div></div>
+
+                        <div class="viewport">
+
+
+                            <div class="overview">
+                                <div>
+                                        <?php foreach ($this->getChildGroup('detailed_info', 'getChildHtml') as $alias => $html): ?>
+                                        <div class="product-desc">
+                                            <?php if ($title = $this->getChildData($alias, 'title')): ?>
+                                            <?php echo $this->escapeHtml($title); ?>
+                                        <?php endif; ?>
+                                        <?php echo $html; ?>
+                                        </div>
+<?php endforeach; ?>
+                                <?php echo $this->getChildHtml('upsell_products') ?>
+                                <?php echo $this->getChildHtml('product_additional_data') ?>
+                                </div>
+
+                                <?php echo $_helper->productAttribute($_product, nl2br($_product->getShortDescription()), 'short_description') ?>
+
+
+                                <?php
+                                $attributeSetName = Mage::getModel('eav/entity_attribute_set')->load($_product->getAttributeSetId())->getAttributeSetName();
+
+                                if ($attributeSetName == "Decathlon Product") {
+                                    $attributes = $_product->getAttributes();
+                                    $attributetitle1 = $attributes['attributetitle1']->getFrontend()->getValue($_product);
+                                    $attributevalue1 = $attributes['attributevalue1']->getFrontend()->getValue($_product);
+                                    $attributetitle2 = $attributes['attributetitle2']->getFrontend()->getValue($_product);
+                                    $attributevalue2 = $attributes['attributevalue2']->getFrontend()->getValue($_product);
+                                    $attributetitle3 = $attributes['attributetitle3']->getFrontend()->getValue($_product);
+                                    $attributevalue3 = $attributes['attributevalue3']->getFrontend()->getValue($_product);
+                                    $attributetitle4 = $attributes['attributetitle4']->getFrontend()->getValue($_product);
+                                    $attributevalue4 = $attributes['attributevalue4']->getFrontend()->getValue($_product);
+                                    $attributetitle5 = $attributes['attributetitle5']->getFrontend()->getValue($_product);
+                                    $attributevalue5 = $attributes['attributevalue5']->getFrontend()->getValue($_product);
+                                    $attributetitle6 = $attributes['attributetitle6']->getFrontend()->getValue($_product);
+                                    $attributevalue6 = $attributes['attributevalue6']->getFrontend()->getValue($_product);
+                                    $attributetitle7 = $attributes['attributetitle7']->getFrontend()->getValue($_product);
+                                    $attributevalue7 = $attributes['attributevalue7']->getFrontend()->getValue($_product);
+                                    $attributetitle8 = $attributes['attributetitle8']->getFrontend()->getValue($_product);
+                                    $attributevalue8 = $attributes['attributevalue8']->getFrontend()->getValue($_product);
+                                    $attributetitle9 = $attributes['attributetitle9']->getFrontend()->getValue($_product);
+                                    $attributevalue9 = $attributes['attributevalue9']->getFrontend()->getValue($_product);
+                                    $attributetitle10 = $attributes['attributetitle10']->getFrontend()->getValue($_product);
+                                    $attributevalue10 = $attributes['attributevalue10']->getFrontend()->getValue($_product);
+                                    $attributetitle11 = $attributes['attributetitle11']->getFrontend()->getValue($_product);
+                                    $attributevalue11 = $attributes['attributevalue11']->getFrontend()->getValue($_product);
+                                    $attributetitle12 = $attributes['attributetitle12']->getFrontend()->getValue($_product);
+                                    $attributevalue12 = $attributes['attributevalue12']->getFrontend()->getValue($_product);
+
+
+                                    if ($attributevalue1 != "") {
+                                        echo '<h3>' . $attributetitle1 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue1 . '</a>';
+                                    }
+                                    if ($attributevalue2 != "") {
+                                        echo '<h3>' . $attributetitle2 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue2 . '</a>';
+                                    }
+
+                                    if ($attributevalue3 != "") {
+                                        echo '<h3>' . $attributetitle3 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue3 . '</a>';
+                                    }
+
+                                    if ($attributevalue4 != "") {
+                                        echo '<h3>' . $attributetitle4 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue4 . '</a>';
+                                    }
+
+                                    if ($attributevalue5 != "") {
+                                        echo '<h3>' . $attributetitle5 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue5 . '</a>';
+                                    }
+
+                                    if ($attributevalue6 != "") {
+                                        echo '<h3>' . $attributetitle6 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue6 . '</a>';
+                                    }
+
+                                    if ($attributevalue7 != "") {
+                                        echo '<h3>' . $attributetitle7 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue7 . '</a>';
+                                    }
+
+                                    if ($attributevalue8 != "") {
+                                        echo '<h3>' . $attributetitle8 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue8 . '</a>';
+                                    }
+
+                                    if ($attributevalue9 != "") {
+                                        echo '<h3>' . $attributetitle9 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue9 . '</a>';
+                                    }
+
+                                    if ($attributevalue10 != "") {
+                                        echo '<h3>' . $attributetitle10 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue10 . '</a>';
+                                    }
+
+                                    if ($attributevalue11 != "") {
+                                        echo '<h3>' . $attributetitle11 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue11 . '</a>';
+                                    }
+
+                                    if ($attributevalue12 != "") {
+                                        echo '<h3>' . $attributetitle12 . '</h3>';
+                                        echo '<a class="overviewdescription">' . $attributevalue12 . '</a>';
+                                    }
+                                }
+                                ?>
+                                <div style="margin-bottom:10px;"></div>
+                            </div></div></div></div></div>
+
+
+
+
+
+
+        </div>
+        <!-- End of left side -->
+
+
+        <!-- Right Side -->
+        <div style="float:left; background:#ececec; width:442px;">
+            <!-- Product Image -->
+            <div class="product-box-pic">
+                <div class="product-img-box">
+<?php echo $this->getChildHtml('media') ?>
+                </div>
+
+            </div>
+            <!-- -->
+        </div>
+        <!-- -->
+        <div class="clearer" style="margin-bottom:40px;"></div>
+    </div>
 
 
 
@@ -276,52 +285,52 @@ echo '<a class="overviewdescription">'.$attributevalue12.'</a>';
 
 <script type="text/javascript">
     //<![CDATA[
-        var productAddToCartForm = new VarienForm('product_addtocart_form');
-        productAddToCartForm.submit = function(button, url) {
+    var productAddToCartForm = new VarienForm('product_addtocart_form');
+    productAddToCartForm.submit = function(button, url) {
+        if (this.validator.validate()) {
+            var form = this.form;
+            var oldUrl = form.action;
+
+            if (url) {
+                form.action = url;
+            }
+            var e = null;
+
+
+            try {
+                this.form.submit();
+            } catch (e) {
+            }
+            this.form.action = oldUrl;
+            if (e) {
+                throw e;
+            }
+
+            if (button && button != 'undefined') {
+                button.disabled = true;
+            }
+        }
+    }.bind(productAddToCartForm);
+
+    productAddToCartForm.submitLight = function(button, url){
+        if(this.validator) {
+            var nv = Validation.methods;
+            delete Validation.methods['required-entry'];
+            delete Validation.methods['validate-one-required'];
+            delete Validation.methods['validate-one-required-by-name'];
             if (this.validator.validate()) {
-                var form = this.form;
-                var oldUrl = form.action;
-
                 if (url) {
-                   form.action = url;
+                    this.form.action = url;
                 }
-                var e = null;
-
-
-                try {
-                    this.form.submit();
-                } catch (e) {
-                }
-                this.form.action = oldUrl;
-                if (e) {
-                    throw e;
-                }
-
-                if (button && button != 'undefined') {
-                    button.disabled = true;
-                }
+                this.form.submit();
             }
-        }.bind(productAddToCartForm);
-
-        productAddToCartForm.submitLight = function(button, url){
-            if(this.validator) {
-                var nv = Validation.methods;
-                delete Validation.methods['required-entry'];
-                delete Validation.methods['validate-one-required'];
-                delete Validation.methods['validate-one-required-by-name'];
-                if (this.validator.validate()) {
-                    if (url) {
-                        this.form.action = url;
-                    }
-                    this.form.submit();
-                }
-                Object.extend(Validation.methods, nv);
-            }
-        }.bind(productAddToCartForm);
+            Object.extend(Validation.methods, nv);
+        }
+    }.bind(productAddToCartForm);
     //]]>
-    </script>
+</script>
 
 <script type="text/javascript"> 
-  $j("#product_view_lys ul").idTabs(); 
+    $j("#product_view_lys ul").idTabs(); 
 </script>
 
