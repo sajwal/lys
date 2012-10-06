@@ -25,7 +25,7 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
 			<?php endif; ?>
 		</p>
         
-		<p class="product-name">
+		<?php /*?><p class="product-name">
 			<?php if ($this->hasProductUrl()): ?>
 				<a href="<?php echo $this->getProductUrl() ?>">
 			<?php endif; ?>
@@ -34,10 +34,15 @@ $canApplyMsrp = Mage::helper('catalog')->canApplyMsrp($_item->getProduct(), Mage
 			<?php if ($this->hasProductUrl()): ?>
 				</a>
 			<?php endif; ?>
+		</p><?php */?>
+        <p class="cart-top-price">
+        	Qty <?php echo $this->getQty() ?> x <?php echo $this->helper('checkout')->formatPrice($_item->getPrice()) ?>
 		</p>
         <p class="cart-top-price">
-        	<?php echo $this->helper('checkout')->formatPrice($_item->getRowTotal()) ?>
+            Total : <?php echo $this->helper('checkout')->formatPrice($_item->getRowTotal()) ?>
 		</p>
-    	<a href="<?php echo $this->getDeleteUrl() ?>" title="<?php echo $this->__('Remove') ?>" onclick="return confirm('<?php echo $this->__('Are you sure you would like to remove this item from the shopping cart?') ?>');" class="top-btn-remove"></a>
+        <?php $delete_url = $this->getUrl('checkout/cart/delete',array('id'=>$_item,Mage_Core_Controller_Front_Action::PARAM_NAME_URL_ENCODED => $this->helper('core/url')->getEncodedUrl()));?>
+        <?php //$delete_url = "javascript:ajaxcartprodelete('".$this->getUrl('ajaxcartpro/cart/remove',array('id'=>$_item->getId()))."')";?>
+    	<a href="<?php echo $delete_url ?>" title="<?php echo $this->__('Remove') ?>" onclick="return confirm('<?php echo $this->__('Are you sure you would like to remove this item from the shopping cart?') ?>');" class="top-btn-remove">remove</a>
 	</div>
 </li>

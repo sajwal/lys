@@ -57,6 +57,12 @@
                         </div>
                     </div>
                     <div class="field">
+                        <label for="billing:state" class="required"><?php echo $this->__('State') ?> <em>*</em></label>
+                        <div class="input-box">
+                            <input type="text" title="<?php echo $this->__('State') ?>" name="billing[region]" value="<?php echo $this->htmlEscape($this->getAddress()->getRegion()) ?>" class="input-text required-entry" id="billing:state" />
+                        </div>
+                    </div>
+                    <div class="field" style="display:none;">
                         <label for="billing:region_id" class="required"><?php echo $this->__('State/Province') ?> <em>*</em></label>
                         <div class="input-box">
                             <select id="billing:region_id" name="billing[region_id]" title="<?php echo $this->__('State/Province') ?>" class="validate-select" style="display:none;">
