@@ -6,7 +6,7 @@
             <version>1.0.0</version>
         </Aureatelabs_Disableshipmethod>
     </modules>
-    <global>
+    <!--<global>
         <models>
             <sales>
                 <rewrite>
@@ -32,7 +32,7 @@
                 <class>Aureatelabs_Disableshipmethod_Helper</class>
             </aureatelabs>
         </helpers>
-    </global>
+    </global>-->
     <frontend>
         <routers>
             <checkout>
