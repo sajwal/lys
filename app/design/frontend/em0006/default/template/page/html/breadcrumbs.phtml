@@ -1,6 +1,5 @@
-<div class="breadcrumbs">
-
 <?php if($crumbs && is_array($crumbs)): ?>
+<div class="breadcrumbs">
     <ul>
         <?php foreach($crumbs as $_crumbName=>$_crumbInfo): ?>
             <li class="<?php echo $_crumbName ; echo $_crumbInfo['last']?' last':'';?>">
@@ -16,11 +15,5 @@
             </li>
         <?php endforeach; ?>
     </ul>
-    <?php endif; ?>
-
-
-<div class="col-ship">
-  
 </div>
-</div>
-
+<?php endif; ?>

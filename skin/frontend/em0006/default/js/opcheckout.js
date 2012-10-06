@@ -36,7 +36,7 @@ Checkout.prototype = {
         this.method = '';
         this.payment = '';
         this.loadWaiting = false;
-        this.steps = ['login', 'billing', 'shipping', 'shipping_method', 'payment', 'review'];
+        this.steps = ['login', 'billing', 'shipping', /*'shipping_method',*/ 'payment', 'review'];
 
         //this.onSetMethod = this.nextStep.bindAsEventListener(this);
 
