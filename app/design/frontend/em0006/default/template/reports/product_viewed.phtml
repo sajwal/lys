@@ -1,20 +1,19 @@
-<?php echo $this->getLayout()->createBlock('catalog/product_new')->setTemplate('catalog/product/new.phtml')->toHtml(); ?>
-
-
-
+<?php //echo $this->getLayout()->createBlock('catalog/product_new')->setTemplate('catalog/product/new.phtml')->toHtml(); ?>
+<div class="clearer"></div>
+<?php if ($_products = $this->getRecentlyViewedProducts()):
+if(count($_products)>1):
+?>
 <div id="carousel_container">
     <div id='left_scroll2' class="leftscrollindi"><img src=<?php echo $this->getSkinUrl('images/icons/carousel_left.png') ?> /></div>
-    <div id="carousel_inner"> 
-    <div class="carousel_head"><?php echo $this->__('You Also Saw') ?></div>      
-    <?php if ($_products = $this->getRecentlyViewedProducts()): ?>
-
+    <div id="carousel_inner">
+    <div class="carousel_head"><?php echo $this->__('You Also Saw') ?></div>
 
 <ul id="carousel_ul2">
         <?php foreach ($_products as $_product): ?>
          <li style="line-height:1.2em; margin-left:18px;">
                 <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($_product->getName()) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135) ?>" width="135" height="135" alt="<?php echo $this->htmlEscape($_product->getName()) ?>" /></a>
                 <div>
-			
+
             	<?php $maxLength = 20;
 			    $productName =  $this->htmlEscape($_product->getName()); 
 			    ?>
@@ -47,10 +46,9 @@
         <?php endforeach; ?>
 </ul>
         <script type="text/javascript">decorateList('recently-viewed-items');</script>
-<?php endif; ?>
 
          </div>
   <div id='right_scroll2'><img src=<?php echo $this->getSkinUrl('images/icons/carousel_right.png') ?> /></div>
   </div>
-
-  </div><div class="clearer"></div>
+  <?php endif; endif;?>
+<div class="clearer"></div>

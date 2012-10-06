@@ -15,7 +15,11 @@
 		$manufLabel = $attr->getStoreLabel(); //Attr. label
 		//$manufLabelCode = str_replace(" ", "-", strtolower($manufLabel)); //Attr. label (simplified)
 		$manufImageUrl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'aureatelabs/attributes/' . $manufAttrId . '/' . $manufValueCode . '.' . $manufImageExt;
-
+                
+                $baseManufImageUrl = Mage::getBaseDir('media').'/aureatelabs/attributes/' . $manufAttrId . '/' . $manufValueCode . '.' . $manufImageExt;    //image base path
+                
+                $defaultImageUrl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'aureatelabs/attributes/' . $manufAttrId . '/' . 'default' . '.' . $manufImageExt;
+                
 		if ($manufLinkSearch)
 			$manufPageUrl = Mage::getUrl() . 'catalogsearch/result/?q=' . $manufValue;
 		elseif ($manufPageBasePath != '')
@@ -32,11 +36,14 @@
 		//	$manufImageUrl = $this->getSkinUrl("images/img/brand-placeholder.png");
 		?>
 		<div class="box-brand">
-			<?php if ($manufPageUrl != ''): ?>
-				<a href="<?php echo $manufPageUrl;?>" title="<?php echo str_replace("%s", $manufValue, $this->__('Click to see more products from %s')); ?>"><img src="<?php echo $manufImageUrl;?>" alt="<?php echo $manufValue; ?>" width="210" height="50" /></a>
-			<?php else: ?>
-				<img src="<?php echo $manufImageUrl;?>" title="<?php echo $manufLabel .': '. $manufValue; ?>" alt="<?php echo $manufValue; ?>" width="210" height="50" />
-			<?php endif; ?>
+                    <?php if ($manufPageUrl != ''): ?>
+                    <a href="<?php echo $manufPageUrl;?>" title="<?php echo str_replace("%s", $manufValue, $this->__('Click to see more products from %s')); ?>">
+                        <?php  ?>
+                        <img src="<?php if(file_exists($baseManufImageUrl)) echo $manufImageUrl; else echo $defaultImageUrl; ?>" alt="<?php echo $manufValue; ?>" width="210" height="50" />
+                    </a>
+                    <?php else: ?>
+                            <img src="<?php echo $manufImageUrl;?>" title="<?php echo $manufLabel .': '. $manufValue; ?>" alt="<?php echo $manufValue; ?>" width="210" height="50" />
+                    <?php endif; ?>
 		</div>
 
 	<?php endif; ?>

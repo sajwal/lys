@@ -45,7 +45,7 @@ $j(document).ready(function() {
             $j('#carousel_ul2 li:last').after($j('#carousel_ul2 li:first'));   
             //and get the left indent to the default -210px
             $j('#carousel_ul2').css({
-                'left' : '30px'
+                'left' : '-35px'//'left' : '30px'
             });
         }); 
 
