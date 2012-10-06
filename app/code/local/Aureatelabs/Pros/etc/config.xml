@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category	Aureatelabs
+ * @package             Aureatelabs_Pros
+ * @author		Aureatelabs
+ * @copyright	Copyright 2012 Aureatelabs
+ * @version:    1.0.0
+ */
+-->
+<config>
+    <modules>
+        <Aureatelabs_Pros>
+            <version>1.0.0</version>
+        </Aureatelabs_Pros>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <pros>
+                    <file>aureatelabs_pros.xml</file>
+                </pros>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <pros>
+                <class>Aureatelabs_Pros_Block</class>
+            </pros>
+        </blocks>
+        <helpers>
+            <pros>
+                <class>Aureatelabs_Pros_Helper</class>
+            </pros>
+        </helpers>
+    </global>
+    <default>
+        <pros>
+            <general>
+                <product_view_enabled>0</product_view_enabled>
+                <attr_id>pros</attr_id>
+                <image_extension>jpg</image_extension>
+                <link_search_enabled>1</link_search_enabled>
+            </general>
+        </pros>
+    </default>
+</config>

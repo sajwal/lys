@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <modules>
+        <Aureatelabs_Extra>
+            <version>1.0.0</version>
+        </Aureatelabs_Extra>
+    </modules>
+    <global>
+        <models>
+            <reports_resource>
+                <rewrite>
+                    <product_collection>Aureatelabs_Extra_Model_Resource_Product_Collection</product_collection>
+                </rewrite>
+            </reports_resource>
+        </models>
+        <helpers>
+            <aureatelabs>
+                <class>Aureatelabs_Extra_Helper</class>
+            </aureatelabs>
+        </helpers>
+    </global>
+</config>
