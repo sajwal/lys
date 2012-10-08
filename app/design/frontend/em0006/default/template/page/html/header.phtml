@@ -1,122 +1,111 @@
-<div style="background:#ECECEC">
+<div class="header-wrapper">
 
 
-<!-- Header Container -->
-<div class="lys_row1_container">
-    	
-        <div class="header" style="padding-top:20px;"> 
-		
-        <!-- LYS Logo -->
-        <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>   
-        <!-- LYS Non-Intuitive-Search -->
-        <div class="lys_search"> <?php echo $this->getChildHtml('topSearch') ?></div>
-        <!-- The Welcome Box -->
-        
-        
-        
-      	  <div>                
-        
-        <!-- Logged in to LYS -->
-        <?php $session = Mage::getSingleton('customer/session'); ?> 
-        <?php if($session->isLoggedIn()):?>
-        <?php   $customer = $session->getCustomer();?>
-     		<div class="afterlogin">
-         		<div id="afterlogin">
-                    <div class="welcometext"><strong><a href="#">Hi <?php echo $customer->getFirstname();?></a></strong></div>
-                    <div>
-                    <div class="myaccount">
-                    <h2>Welcome Back!</h2>
-                    <ul>
-                    <li><a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK); ?>customer/account/">My Account</a></li>
-                    <li><a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK); ?>sales/order/history/">My Order History</a></li>
-                    <li><a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK); ?>review/customer">My Product Reviews</a></li>
-                    <li><a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK); ?>wishlist/">My Wishlist</a></li>
-                    <li><a href="http://trainingcenter.liveyoursport.com/">LYS Training Center</a></li>
-                    <li><a href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>">Logout</a></li>
-                    </ul>
+    <!-- Header Container -->
+    <div class="lys_row1_container">
+
+        <div class="header"> 
+
+            <!-- LYS Logo -->
+            <h1 class="logo"><strong><?php echo $this->getLogoAlt() ?></strong><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>" class="logo"><img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" /></a></h1>   
+            <!-- LYS Non-Intuitive-Search -->
+            <div class="lys_search"> <?php echo $this->getChildHtml('topSearch') ?></div>
+            <!-- The Welcome Box -->
+
+            <div>                
+
+                <!-- Logged in to LYS -->
+                <?php $session = Mage::getSingleton('customer/session'); ?> 
+                <?php if ($session->isLoggedIn()): ?>
+                    <?php $customer = $session->getCustomer(); ?>
+                    <div class="afterlogin">
+                        <div id="afterlogin">
+                            <div class="welcometext"><strong><a href="#">Hi <?php echo $customer->getFirstname(); ?></a></strong></div>
+                            <div>
+                                <div class="myaccount">
+                                    <h2>Welcome Back!</h2>
+                                    <ul>
+                                        <li><a href="<?php echo Mage::getBaseUrl().'customer/account/'?>">My Account</a></li>
+                                        <li><a href="<?php echo Mage::getBaseUrl().'sales/order/history/'?>">My Order History</a></li>
+                                        <li><a href="<?php echo Mage::getBaseUrl().'review/customer'?>">My Product Reviews</a></li>
+                                        <li><a href="<?php echo Mage::getBaseUrl().'wishlist/'?>">My Wishlist</a></li>
+                                        <li><a href="http://trainingcenter.liveyoursport.com/">LYS Training Center</a></li>
+                                        <li><a href="<?php echo Mage::helper('customer')->getLogoutUrl(); ?>">Logout</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    </div>
-     			</div>
-        	</div>
-       
-       
-       
-       
-       
-        <?php else: ?>
-        <!-- Logged out of LYS -->
-        <?php $customer = $session->getCustomer();?>
-         <strong style="margin-right:10px; text-transform:uppercase" class="signing"><a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK); ?>customer/account/create/">Sign Up</a> | <a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK); ?>customer/account/login/">Sign In</a></strong>
-        <?php endif; ?>      
-             
-      	 </div> 
-       <div style="float:right;" id="lyslocker"><?php echo $this->getChildHtml('cart_cartheader') ?></div>
-          <div class="clearer"></div>
-        
-         <div style="float:right; margin-top:-80px; margin-right:10px" class="returns"> <a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK); ?>returns/">Returns Made Easy</a> | <a href="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK); ?>help/">Help</a></div>
-        
-        <div class="clearer"></div>
-        
-         
-      
+
+
+
+
+
+                <?php else: ?>
+                    <!-- Logged out of LYS -->
+                    <?php $customer = $session->getCustomer(); ?>
+                    <strong style="margin-right:10px; text-transform:uppercase" class="signing"><a href="
+<?php echo Mage::getBaseUrl().'customer/account/create/'?>">Sign Up</a> | <a href="<?php echo Mage::getBaseUrl().'customer/account/login/'?>">Sign In</a></strong>
+                <?php endif; ?>      
+
+            </div> 
+            <div style="float:right;" id="lyslocker"><?php echo $this->getChildHtml('cart_cartheader') ?></div>
+            <div class="clearer"></div>
+
+            <div style="float:right; margin-top:-80px; margin-right:10px" class="returns"> <a href="<?php echo Mage::getBaseUrl()?>returns/">Returns Made Easy</a> | <a href="<?php echo Mage::getBaseUrl()?>help/">Help</a></div>
+
+            <div class="clearer"></div>
+
+
+
         </div>
 
-</div>
-<!-- Header Container Ends -->   
-
-<?php echo $this->getChildHtml('topContainer'); ?>
     </div>
+    <!-- Header Container Ends -->   
+
+    <?php echo $this->getChildHtml('topContainer'); ?>
+</div>
 </div>
 
 <?php echo $this->getChildHtml('topMenu') ?>
 <!-- LYS Feature BAR -->
 
 <!-- Check if homepage -->
-<?php 
-$isnothome=true;
-$page = Mage::app()->getFrontController()->getRequest()->getRouteName(); 
+<?php
+$isnothome = true;
+$page = Mage::app()->getFrontController()->getRequest()->getRouteName();
 if ($page == 'cms'):
-    $isnothome=(Mage::getSingleton('cms/page')->getIdentifier()=='home') ? false :true;
+    $isnothome = (Mage::getSingleton('cms/page')->getIdentifier() == 'home') ? false : true;
 endif;
- ?>
+?>
 
 
 <div class="lys_row1_container">
 
-<?php if ($this->getIsHomePage()):?>
-<div class="featured_products"><span style="margin-left:20px;">Featured Products</span></div>
-<?php else:?>
-<div class="featured_products"><a href="#contact" class="btn-slide" style="margin-left:20px;">Featured Products</a></div>
-<div id="contact" class="radius floating_featured">
-<div class="lys_featured_re">
-<?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('lys_featured')->toHtml() ?> 
+    <?php if ($this->getIsHomePage()): ?>
+        <div class="featured_products"><span style="margin-left:20px;">Featured Products</span></div>
+    <?php else: ?>
+        <div class="featured_products"><a href="#contact" class="btn-slide" style="margin-left:20px;">Featured Products</a></div>
+        <div id="contact" class="radius floating_featured">
+            <div class="lys_featured_re">
+                <?php echo $this->getLayout()->createBlock('cms/block')->setBlockId('lys_featured')->toHtml() ?> 
+            </div>
+        </div>
+    <?php endif; ?>
+
+
+    <div class="featured_shipping">Free Shipping for all Orders above &nbsp;Rs. &nbsp;600</div>
+    <div>
+    <div class="clearer"></div>
+    </div>
 </div>
-</div>
-<?php endif; ?>
 
+<!--<script type="text/javascript">
+    var $j = jQuery.noConflict();
+    $j(document).ready(function() {
+        $j(function(){
+            $j("select, input:checkbox, input:radio").uniform();
+        });
 
-<div class="featured_shipping">Free Shipping for all Orders above &nbsp;Rs. &nbsp;600</div>
-<div>
-<div class="clearer"></div>
-
-
-</div></div>
-
-
-
-
-
-<script type="text/javascript">
-var $j = jQuery.noConflict();
-$j(document).ready(function() {
-      $j(function(){
-        $j("input, textarea, select, button").uniform();
-      });
-
-});
-</script>
-
-
-
-
-
+    });
+</script>-->

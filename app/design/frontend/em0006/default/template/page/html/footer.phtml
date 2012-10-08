@@ -8,25 +8,25 @@
     <div class="footer-link-left"></div>
     <div class="footer-link-center">
       <h4 style="margin-left:-3px;">Live Your Sport</h4>      
-        <a href="<?php echo($this->getBaseUrl()) ?>who-we-are/">Who We Are</a><br />
-        <a href="<?php echo($this->getBaseUrl()) ?>why-lys/">Why LYS</a><br />
-        <a href="<?php echo($this->getBaseUrl()) ?>our-offering/">Our Offering</a><br />
-        <a href="<?php echo($this->getBaseUrl()) ?>lys-philosophy/">LYS Philosophy</a><br />
+        <a href="<?php echo $this->getBaseUrl().'who-we-are/'?>">Who We Are</a><br />
+        <a href="<?php echo $this->getBaseUrl().'why-lys/' ?>">Why LYS</a><br />
+        <a href="<?php echo $this->getBaseUrl().'our-offering/' ?>">Our Offering</a><br />
+        <a href="<?php echo $this->getBaseUrl().'lys-philosophy/' ?>">LYS Philosophy</a><br />
 
 </div>
     <div class="footer-link-right"></div>
     <div class="footer-link-center">
 
       <h4 style="margin-left:30px;">Support</h4>
-      <a href="<?php echo($this->getBaseUrl()) ?>help/">Help</a><br />
-      <a href="<?php echo($this->getBaseUrl()) ?>contact-us/">Contact Us</a><br />
-      <a href="<?php echo($this->getBaseUrl()) ?>returns/">Return Policy</a></div>
+      <a href="<?php echo $this->getBaseUrl().'help/' ?>">Help</a><br />
+      <a href="<?php echo $this->getBaseUrl().'contact-us/' ?>">Contact Us</a><br />
+      <a href="<?php echo $this->getBaseUrl().'returns/' ?>">Return Policy</a></div>
     <div class="footer-link-right"></div>
     <div class="footer-link-center">
       <h4 style="margin-left:30px;">Orders</h4>
-      <a href="<?php echo($this->getBaseUrl()) ?>special-orders/">Special Orders</a><br />
-      <a href="<?php echo($this->getBaseUrl()) ?>bulk-orders/">Bulk Orders</a><br />
-      <a href="<?php echo($this->getBaseUrl()) ?>payment-options/">Payment Options</a><br />
+      <a href="<?php echo $this->getBaseUrl().'special-orders/' ?>">Special Orders</a><br />
+      <a href="<?php echo $this->getBaseUrl().'bulk-orders/' ?>">Bulk Orders</a><br />
+      <a href="<?php echo $this->getBaseUrl().'payment-options/' ?>">Payment Options</a><br />
       </div>
     
     
@@ -100,25 +100,14 @@
 </td>
   </tr>
   <tr>
-    <td>&nbsp;</td>
+    <td><span class="footer_privacy"><a href="<?php echo $this->getBaseUrl().'privacy-policy' ?>">Privacy Policy</a> |<a href="<?php echo $this->getBaseUrl().'contact-us' ?>"> Feedback</a></span></td>
   </tr>
   <tr>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td>&nbsp;</td>
-  </tr>
-  <tr>
-    <td><span class="footer_privacy" style="text-align:right"><a href="<?php echo($this->getBaseUrl()) ?>/privacy-policy">Privacy Policy</a> |<a href="<?php echo($this->getBaseUrl()) ?>/contact-us"> Feedback</a></span></td>
-  </tr>
-  <tr>
-    <td align="right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td align="right"><a href="#" target="_blank"><img src="<?php echo $this->getSkinUrl('images/icons/twitter.jpg') ?>" alt="Liveyoursport on Facebook" width="22" height="22" border="0" style="float:right; margin-left:5px;"/></a><a href="http://www.facebook.com/pages/Live-Your-Sport/416609828372517" target="_blank"><img src="<?php echo $this->getSkinUrl('images/icons/fb.jpg') ?>" alt="Liveyoursport on Facebook" width="22" height="22" border="0" style="float:right"/></a></td>
+    <td align="right">
+        <div class="social">
+            <a href="#" target="_blank"><img src="<?php echo $this->getSkinUrl('images/icons/twitter.jpg') ?>" alt="Liveyoursport on Facebook" width="22" height="22" border="0" style="float:right; margin-left:5px;"/></a><a href="http://www.facebook.com/pages/Live-Your-Sport/416609828372517" target="_blank"><img src="<?php echo $this->getSkinUrl('images/icons/fb.jpg') ?>" alt="Liveyoursport on Facebook" width="22" height="22" border="0" style="float:right"/></a>
+        </div>
+    </td>
   </tr>
   <tr>
     <td><div style="float:left; margin-left:5px; margin-top:10px; margin-bottom:10px; color:#666">
@@ -126,8 +115,7 @@
   <div class="abnd" url="http://www.abrandnewday.in/"><a>ABND</a></div>
   </div>
   
-  <div style="float:right; color:#666666;  margin-top:10px; margin-bottom:10px; margin-left:-35px; text-align:right;">2012 LiveYourSport.com Ltd<br />All Rights Reserved.
-</div>
+  <div class="footer-copyright"><address><?php echo $this->getCopyright() ?></address></div>
   
   </td>
   </tr>
@@ -138,3 +126,58 @@
 </div>
 
 </div>
+
+<?php 
+$config = Mage::getStoreConfig('feedback/feedback/active'); 
+$customer=Mage::helper('customer');
+$email = $name = '';
+if($customer->isLoggedIn()){
+    $name = Mage::getSingleton('customer/session')->getCustomer()->getName();
+    $email = Mage::getSingleton('customer/session')->getCustomer()->getEmail();
+}
+?>
+<?php if($config=="1") { ?>
+<div class="side-feedback">
+    <a href="javascript:void(0)" onclick="openFeedbackWindow('feedback_information')" title="Feedback" id="link_feedback"></a>
+</div>
+<div id="backgroundpopup" class="background-opacity" style="display: none; background: none repeat scroll 0% 0% rgb(0, 0, 0);"></div>  
+<div style="display: none;" id="feedback_information" class="feedback-container">
+    <a class="feedback_close" title="close" href="#" onclick="closeFeedbackWindow('feedback_information'); return false;"></a>
+    <div class="feedback-popup-content">
+    	<h1>Tell us how we can improve your experience.</h1>
+        <!--<div class="feedback-title"> <?php echo $this->__('Tell us how we can improve your experience.') ?>  </div>-->
+        <div class="feedback-content">
+            <form action="<?php echo $this->getUrl("feedback/index/post") ?>" method="post" id="frm_feedback">
+                <div id="success_message" style="display: none;" class="feedback-success-msg"></div>
+                <div id="loader" class="loader-feedback" style="text-align: center;display: none;"><p><img src='<?php echo $this->getSkinUrl('feedback/images/ajax-loader-onestep.gif') ?>' alt='' title=''/></p></div>
+                <br/>
+                <ul class="form-list" id="feedback_options">
+                    <li>
+                        <label for="fname"><?php echo $this->__('Your Full Name').":" ?> <span class="required">*</span></label>
+                        <input name="feedbackbuname" value="<?php echo $this->htmlEscape($name) ?>" title="<?php echo $this->__('Name') ?>" id="fname" type="text" class="input-text required-entry"  />
+                    </li>
+                    <li>      
+                        <label for="email"><?php echo $this->__('Your E-mail').":" ?> <span class="required">*</span></label>
+                        <input name="feedbackmail" value="<?php echo $this->htmlEscape($email) ?>" title="<?php echo $this->__('Email Address') ?>" id="email" type="text" class="input-text required-entry validate-email" />
+                    </li> 
+                    <li>      
+                        <label for="heard_about_us"><?php echo $this->__('Where did you hear about us')."?" ?></label>
+                        <input name="feedbackheard" value="" title="<?php echo $this->__('Email Address') ?>" id="heard_about_us" type="text" class="input-text" />
+                    </li> 
+                    <li>
+                        <label for="details"><?php echo $this->__('Write few words for us.').":" ?> <span class="required">*</span></label>
+                        <textarea id="details" class="input-text required-entry"  name="feedbackdetails" rows="10" col="50"></textarea>
+                    </li> 
+                    <li>
+                        <button id="btnsubmit" name="btnsubmit"  type="button" class="indibutton" onclick="sendFeedback('<?php echo $this->getUrl("feedback/index/post"); ?>')">
+                            <span><span><?php echo $this->__('Send') ?></span></span></button>
+                    </li>   
+                </ul>
+            </form>
+            <script type="text/javascript">
+                var feedback_form = new Validation($('frm_feedback'));
+            </script>
+        </div>
+    </div>
+</div>
+<?php } ?>

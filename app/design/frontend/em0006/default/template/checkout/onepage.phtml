@@ -1,29 +1,24 @@
-<div class="clearer">
+<div class="page-title">
+    <h1><?php echo $this->__('Checkout') ?></h1>
 </div>
 <script type="text/javascript" src="<?php echo $this->getJsUrl('varien/accordion.js') ?>"></script>
 <script type="text/javascript" src="<?php echo $this->getSkinUrl('js/opcheckout.js') ?>"></script>
 <script type="text/javascript">countryRegions = <?php echo $this->helper('directory')->getRegionJson() ?></script>
 <ol class="opc" id="checkoutSteps">
-
 <?php $i=0; foreach($this->getSteps() as $_stepId => $_stepInfo): ?>
-<?php if (!$this->getChild($_stepId) || !$this->getChild($_stepId)->isShow()): continue; endif; $i++ ?>
-    <li id="opc-<?php echo $_stepId ?>" class="section allow <?php echo !empty($_stepInfo['allow'])?' allow':'' ?><?php echo !empty($_stepInfo['complete'])?' saved':'allow' ?>">
-        <div class="step-title">
-            <span class="number"><?php echo $i ?></span>
-            <h2><?php echo $_stepInfo['label'] ?></h2>
-            <a href="#"><?php echo $this->__('Edit') ?></a>
-        </div>
-       
-        
-        <div id="checkout-step-<?php echo $_stepId ?>" class="step a-item" style="display: none">
-        	 <div class="checkout-cart-top"></div>
-            <div class="checkout-cart-middle"><?php echo $this->getChildHtml($_stepId) ?></div>
-             <div class="checkout-cart-bottom"></div>
-        </div>
-        <?php if($i != 6): ?>
-        <div class="opc_divider"></div>
-        <?php endif; ?> 
-    </li>
+	<?php if($_stepId != 'shipping_method'):?>
+        <?php if (!$this->getChild($_stepId) || !$this->getChild($_stepId)->isShow()): continue; endif; $i++ ?>
+            <li id="opc-<?php echo $_stepId ?>" class="section<?php echo !empty($_stepInfo['allow'])?' allow':'' ?><?php echo !empty($_stepInfo['complete'])?' saved':'' ?>">
+                <div class="step-title" style=" width:<?php echo 100/(count($this->getSteps())-1)?>%">
+                    <span class="number"><?php echo $i ?></span>
+                    <h2><?php echo $_stepInfo['label'] ?></h2>
+                    <a href="#"><?php echo $this->__('Edit') ?></a>
+                </div>
+                <div id="checkout-step-<?php echo $_stepId ?>" class="step a-item" style="display:none;">
+                    <?php echo $this->getChildHtml($_stepId) ?>
+                </div>
+            </li>
+	<?php endif;?>	
 <?php endforeach ?>
 </ol>
 <script type="text/javascript">
@@ -38,5 +33,8 @@
         saveMethod: '<?php echo $this->getUrl('checkout/onepage/saveMethod') ?>',
         failure: '<?php echo $this->getUrl('checkout/cart') ?>'}
     );
+	function openPrevSection(){
+		accordion.openPrevSection(true);
+	}
 //]]>
 </script>

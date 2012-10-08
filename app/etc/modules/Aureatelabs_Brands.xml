@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <Aureatelabs_Brands>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Aureatelabs_Brands>
+    </modules>
+</config> 

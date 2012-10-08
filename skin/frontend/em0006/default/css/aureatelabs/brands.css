@@ -1,0 +1,14 @@
+
+/* Brands */
+.box-brand {
+	height:50px;
+	margin:4px 0;
+}
+
+/* On product page: Product Attributes block
+-------------------------------------------------------------- */
+.product-view .product-attributes .box-brand {
+	margin:10px 0 15px;
+	padding-bottom:25px;
+	border-bottom:1px solid #f2f2f2;
+}

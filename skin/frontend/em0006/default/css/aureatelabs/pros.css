@@ -1,0 +1,40 @@
+
+/* Pros */
+.pros { margin-top: 50px; }
+.product-box-head2 { width: 960px; }
+.box-pros {
+        overflow: hidden;
+}
+.contentbox { width: 100px; float: left; height: 100px; }
+.contentbox-wrapper {
+    position:relative; 
+    left:0; 
+    width:3000px; 
+    height:100%;
+}
+.contentbox-wrapper div { width: 120px; height: 108px; }
+.contentbox-wrapper div h5 { background: #000000; padding: 3px 0; color: #006E9B; font-size: 9px; text-transform: uppercase; text-align: center; }
+.contentbox-wrapper div h5 span { margin: 4px 0; }
+.pros .pros-prev-next {
+    background: #323232;
+    float: left;
+    height: 68px;
+    padding-left: 10px;
+    padding-top: 40px;
+    vertical-align: middle;
+    width: 50px;
+}
+.pros .pros-next { float: right; }
+.pros button { border: none; cursor: pointer; }
+.pros .pros-next { padding-right: 10px; width: 40px; }
+.contentout { float: left; }
+.box-pros .contentbox-wrapper img { width: 120px; height: 93px; overflow: hidden; float: left; }
+.pros .product-box-head2 h4 { font-weight: bold; margin-bottom: 10px; }
+
+/* On product page: Product Attributes block
+-------------------------------------------------------------- */
+.product-view .product-attributes .box-pros {
+	margin:10px 0 15px;
+	padding-bottom:25px;
+	border-bottom:1px solid #f2f2f2;
+}

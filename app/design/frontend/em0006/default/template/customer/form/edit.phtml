@@ -29,7 +29,7 @@
 </div>
 <?php echo $this->getMessagesBlock()->getGroupedHtml() ?>
 <form action="<?php echo $this->getUrl('customer/account/editPost') ?>" method="post" id="form-validate">
-    <div class="fieldset">
+    <div class="fieldset upper">
         <?php echo $this->getBlockHtml('formkey')?>
        
         <ul class="form-list">
@@ -59,7 +59,7 @@
             </li>
         </ul>
     </div>
-    <div class="fieldset" style="display:none;">
+    <div class="fieldset lower" style="display:none;">
         <h2 class="legend"><?php echo $this->__('Change Password') ?></h2>
         <ul class="form-list">
             <li>
@@ -87,7 +87,7 @@
     <div class="buttons-set">
         <p class="required"><?php echo $this->__('* Required Fields') ?></p>
         <p class="back-link"><a href="<?php echo $this->escapeUrl($this->getBackUrl()) ?>"><small>&laquo; </small><?php echo $this->__('Back') ?></a></p>
-        <button type="submit" title="<?php echo $this->__('Save') ?>" class="button"><span><span><?php echo $this->__('Save') ?></span></span></button>
+        <button type="submit" title="<?php echo $this->__('Save') ?>" class="button"><span><?php echo $this->__('Save') ?></span></button>
     </div>
 </form>
 <script type="text/javascript">

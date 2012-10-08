@@ -1,6 +1,7 @@
 <?php
+
 /**
-* aheadWorks Co.
+ * aheadWorks Co.
  *
  * NOTICE OF LICENSE
  *
@@ -25,24 +26,34 @@
  * @copyright  Copyright (c) 2010-2012 aheadWorks Co. (http://www.aheadworks.com)
  * @license    http://ecommerce.aheadworks.com/AW-LICENSE-COMMUNITY.txt
  */
+class AW_Ajaxcartpro_CartController extends Mage_Core_Controller_Front_Action {
 
-class AW_Ajaxcartpro_CartController extends Mage_Core_Controller_Front_Action
-{
-    public function removeAction()
-    {
+    public function removeAction() {
         $response = Mage::getModel('ajaxcartpro/response');
-        $id =  $this->getRequest()->getParam('id');
+        $id = $this->getRequest()->getParam('id');
         Mage::getSingleton('checkout/cart')->removeItem($id)->save();
-        if($this->getRequest()->getParam('is_checkout')) {
+        if ($this->getRequest()->getParam('is_checkout')) {
             $response->setCart(Mage::helper('ajaxcartpro')->renderBigCart());
-            if(AW_Ajaxcartpro_Helper_Data::RETURN_CARTBAR_ON_BIGCART)
+            if (AW_Ajaxcartpro_Helper_Data::RETURN_CARTBAR_ON_BIGCART)
                 $response->setCartbar(Mage::helper('ajaxcartpro')->renderCart());
         } else {
             $response->setCart(Mage::helper('ajaxcartpro')->renderCart());
         }
         $response->setLinks(Mage::helper('ajaxcartpro')->renderTopCartLinkTitle());
         $_quote = Mage::getSingleton('checkout/session')->getQuote();
-        if($_quote && $_quote->getHasError()) $response->setError('quote error');
+        if ($_quote && $_quote->getHasError())
+            $response->setError('quote error');
         $response->send();
     }
+
+    public function updatecartAction() {
+            $layout = $this->getLayout();
+            $update = $layout->getUpdate();
+            $update->load('ajaxcartpro_cart_updatecart');
+            $layout->generateXml();
+            $layout->generateBlocks();
+            $output = $layout->getOutput();
+            $this->getResponse()->setBody($output);
+    }
+
 }

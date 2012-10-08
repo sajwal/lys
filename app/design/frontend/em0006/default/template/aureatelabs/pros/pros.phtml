@@ -1,0 +1,78 @@
+<?php $helper = Mage::helper('pros'); ?>
+
+<?php if($helper->getCfgGeneral('product_view_enabled')): ?>
+	<?php $_product = $this->getCurrentProductObject();?>
+	<?php $prosAttrId = $helper->getCfgGeneral('attr_id'); ?>
+	<?php if ($_product->getData($prosAttrId)): //If prosacturer/brand attribute exists ?>
+            <div class="product-box-head2">
+                <h4>Pros that use this product <img src="<?php echo $this->getSkinUrl('images/lys/cap.jpg')?>" alt="" /></h4>
+                <div class="pros-prev-next"><button class="prev"><<</button></div>
+                <div class="pros-prev-next pros-next"><button class="next">>></button></div>
+                <div class="box-pros">
+                    <div class="contentbox-wrapper">
+                        <?php
+                        $prosImageExt = trim($helper->getCfgGeneral('image_extension'));
+                        $prosLinkSearch = $helper->getCfgGeneral('link_search_enabled'); //If true, brand logo is link to Quick Search results
+                        $prosPageBasePath = trim($helper->getCfgGeneral('page_base_path')); //Base path to each brand's page
+                        $attr = $_product->getResource()->getAttribute($prosAttrId); //Attr. object
+                        $prosValues = trim($attr->getFrontend()->getValue($_product)); //Attr. value
+                        $prosValueArray = explode(",", $prosValues);
+                        $total_pros = count($prosValueArray);
+                        $end_pnt = $total_pros-6;
+                        $i = 0;
+                        foreach($prosValueArray as $prosValue):
+                            $prosValueCode = str_replace(" ", "_", strtolower(trim($prosValue))); //Attr. value (simplified)
+                            $prosLabel = $attr->getStoreLabel(); //Attr. label
+                            //$prosLabelCode = str_replace(" ", "-", strtolower($prosLabel)); //Attr. label (simplified)
+                            $prosImageUrl = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) . 'aureatelabs/attributes/' . $prosAttrId . '/' . $prosValueCode . '.' . $prosImageExt;
+
+                            if ($prosLinkSearch)
+                                    $prosPageUrl = Mage::getUrl() . 'catalogsearch/result/?q=' . $prosValue;
+                            elseif ($prosPageBasePath != '')
+                            {
+                                    //If $prosPageBasePath is '/', then it has to be omitted
+                                    //Change brand name to lowercase, and replace spaces with hyphens
+                                    $basePath = ($prosPageBasePath == '/') ? '' : $prosPageBasePath . '/';
+                                    $prosPageUrl = Mage::getUrl() . $basePath . str_replace(" ", "-", strtolower($prosValue));
+                            }
+                            else
+                                    $prosPageUrl = '';
+
+                            //if (file_exists($prosImageUrl) == FALSE)
+                            //	$prosImageUrl = $this->getSkinUrl("images/img/brand-placeholder.png");
+
+                            ?>
+                            <div class="<?php if($i<$end_pnt) echo 'contentbox '; else echo 'contentout'; if($i==0) echo 'first red';?>">
+                                <?php if ($prosPageUrl != ''): ?>
+                                        <a href="<?php echo $prosPageUrl;?>" title="<?php echo str_replace("%s", $prosValue, $this->__('Click to see more products from %s')); ?>"><img src="<?php echo $prosImageUrl;?>" alt="<?php echo $prosValue; ?>" width="210" height="50" /></a>
+                                <?php else: ?>
+                                        <img src="<?php echo $prosImageUrl;?>" title="<?php echo $prosLabel .': '. $prosValue; ?>" alt="<?php echo $prosValue; ?>" width="120" height="90" />
+                                <?php endif; ?>
+                                        <h5><span><?php echo $prosValue;?></span></h5>
+                            </div>
+                        <?php $i++; endforeach; ?>
+                    </div>
+                </div>
+            </div>
+	<?php endif; ?>
+<?php endif; ?>
+
+<script type="text/javascript">
+    
+            var $lis = $j('.contentbox-wrapper > .contentbox');
+
+            $j('.next').click(function(){
+                var $selected =  $j('.red').removeClass('red');
+                ($selected.next('.contentbox').length > 0 ? $selected.next('.contentbox') : $lis.first()).addClass('red');
+                $j(".contentbox-wrapper").animate({"left": -($j('.red').position().left)}, 600);
+                return false;
+            });
+            
+            $j('.prev').click(function(){
+                var $selected =  $j('.red').removeClass('red');
+                ($selected.prev().length > 0 ? $selected.prev() : $lis.first()).addClass('red');
+                $j(".contentbox-wrapper").animate({"left": -($j('.red').position().left)},600);
+                return false;
+            });
+
+</script>

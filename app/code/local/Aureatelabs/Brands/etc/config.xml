@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category	Aureatelabs
+ * @package		Aureatelabs_Brands
+ * @author		Aureatelabs
+ * @copyright	Copyright 2012 Aureatelabs
+ * @version:    1.0.0
+ */
+-->
+<config>
+    <modules>
+        <Aureatelabs_Brands>
+            <version>1.0.0</version>
+        </Aureatelabs_Brands>
+    </modules>
+    <frontend>
+        <layout>
+            <updates>
+                <brands>
+                    <file>aureatelabs_brands.xml</file>
+                </brands>
+            </updates>
+        </layout>
+    </frontend>
+    <global>
+        <blocks>
+            <brands>
+                <class>Aureatelabs_Brands_Block</class>
+            </brands>
+        </blocks>
+        <helpers>
+            <brands>
+                <class>Aureatelabs_Brands_Helper</class>
+            </brands>
+        </helpers>
+    </global>
+    <default>
+        <brands>
+            <general>
+                <product_view_enabled>0</product_view_enabled>
+                <attr_id>manufacturer</attr_id>
+                <image_extension>png</image_extension>
+                <link_search_enabled>1</link_search_enabled>
+            </general>
+        </brands>
+    </default>
+</config>

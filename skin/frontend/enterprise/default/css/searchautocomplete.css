@@ -1,0 +1,60 @@
+/**
+ * aheadWorks Co.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://ecommerce.aheadworks.com/LICENSE-M1.txt
+ *
+ * @category   AW
+ * @package    AW_Seacrhautocomplete
+ * @copyright  Copyright (c) 2003-2010 aheadWorks Co. (http://www.aheadworks.com)
+ * @license    http://ecommerce.aheadworks.com/LICENSE-M1.txt
+ */
+
+.searched-words { /* highlight of the words being searched */
+	color:red;
+}
+
+.yui-ac-content
+{
+    position:absolute!important;
+    background-color: #FFF;
+	border:solid 2px #C4C6C8;
+	width: 300px;
+	padding: 5px;
+    margin:0;
+}
+
+.yui-ac-content ul{
+    position:relative!important;
+    width: 300px!important;
+    white-space: normal;
+}
+
+.yui-ac-content ul,
+.header .form-search .search-autocomplete ul {
+    border:none;
+}
+
+.yui-ac-hd {
+	color:#999999;
+	display:block;
+	margin-bottom:4px;
+	padding:0 4px;
+	border-bottom:dashed 1px #999999;
+	text-align:left;
+	font-style:italic;
+}
+
+.yui-ac-ft {
+    color:#999999;
+	display:block;
+	margin-top:4px;
+	padding:0 4px;
+	border-top:dashed 1px #999999;
+	text-align:left;
+	font-style:italic;
+}
