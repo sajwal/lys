@@ -621,7 +621,7 @@ p.back-link
 
 }
 #advice-validate-email-newsletter{width:161px;}
-.validation-advice 
+/*.validation-advice 
 {
     background:url("../images/validation_advice_bg.gif") no-repeat scroll 2px 3px transparent;
     color:#FF0000;
@@ -633,7 +633,7 @@ p.back-link
     padding-left:17px;
     padding-top:3px;
     /*position:absolute;*/
-}
+}*/
 .validation-failed { border:1px dashed #eb340a !important; background:#faebe7 !important; }
 .validation-passed {}
 
@@ -7228,4 +7228,18 @@ p.minicart-deliveryinfo { text-align:center; }
     padding-left: 10px;
     padding-right: 2px;
     width: 296px;
+}
+.validation-advice 
+{
+    background:url("../images/validation_advice_bg.gif") no-repeat scroll 2px 3px transparent;
+    color:#FF0000;
+    font-size:11px;
+    font-weight:bold;
+    text-align:left;
+    line-height:13px;
+    min-height:13px;
+    padding-left:17px;
+    padding-top:3px;
+	clear:both;
+    /*position:absolute;*/
 }

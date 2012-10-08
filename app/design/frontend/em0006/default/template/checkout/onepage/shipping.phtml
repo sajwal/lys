@@ -9,7 +9,7 @@
         <li id="shipping-new-address-form"<?php if ($this->customerHasAddresses()): ?> style="display:none;"<?php endif ?>>
             <fieldset>
                 <input type="hidden" name="shipping[address_id]" value="<?php echo $this->getAddress()->getId() ?>" id="shipping:address_id" />
-                <ul style="margin-top:20px;">
+                <ul style="margin-top:20px; width:620px; float:right;">
                     <li class="fields"><?php echo $this->getLayout()->createBlock('customer/widget_name')->setObject($this->getAddress())->setFieldIdFormat('shipping:%s')->setFieldNameFormat('shipping[%s]')->setFieldParams('onchange="shipping.setSameAsBilling(false)"')->toHtml() ?></li>
                     <li class="fields">
                        <!--  <div class="fields">
@@ -48,6 +48,12 @@
                             </div>
                         </div>
                         <div class="field">
+                            <label for="shipping:state" class="required"><?php echo $this->__('State') ?> <em>*</em></label>
+                            <div class="input-box">
+                                <input type="text" title="<?php echo $this->__('State') ?>" name="shipping[state]" value="<?php echo $this->htmlEscape($this->getAddress()->getCity()) ?>" class="input-text required-entry" id="shipping:state" onchange="shipping.setSameAsBilling(false);" />
+                            </div>
+                        </div>
+                        <?php /*?><div class="field">
                             <label for="shipping:region" class="required"><?php echo $this->__('State/Province') ?> <em>*</em></label>
                             <div class="input-box">
                                 <select id="shipping:region_id" name="shipping[region_id]" title="<?php echo $this->__('State/Province') ?>" class="validate-select" style="display:none;">
@@ -60,7 +66,7 @@
                                 </script>
                                 <input type="text" id="shipping:region" name="shipping[region]" value="<?php echo $this->htmlEscape($this->getAddress()->getRegion()) ?>" title="<?php echo $this->__('State/Province') ?>" class="input-text" style="display:none;" />
                             </div>
-                        </div>
+                        </div><?php */?>
                     </li>
                     <li class="fields">
                         <div class="field">
@@ -93,7 +99,7 @@
                         </div> -->
                     </li>
                 <?php if ($this->isCustomerLoggedIn() && $this->customerHasAddresses()):?>
-                    <li class="control">
+                    <li class="control" style="padding-right:20px;">
                         <input type="checkbox" name="shipping[save_in_address_book]" value="1" title="<?php echo $this->__('Save in address book') ?>" id="shipping:save_in_address_book" onchange="shipping.setSameAsBilling(false);"<?php if ($this->getAddress()->getSaveInAddressBook()):?> checked="checked"<?php endif;?> class="checkbox" /><label for="shipping:save_in_address_book"><?php echo $this->__('Save in address book') ?></label></li>
                 <?php else:?>
                     <li class="no-display"><input type="hidden" name="shipping[save_in_address_book]" value="1" /></li>
