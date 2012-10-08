@@ -81,13 +81,13 @@ class Aureatelabs_Disableshipmethod_OnepageController extends Mage_Checkout_Onep
             $data = $this->getRequest()->getPost('payment', array());
             $result = $this->getOnepage()->savePayment($data);
 			if(isset($data['method'])){
-				if($data['method']=='cashondelivery'){
-					$non_servicable_pincodes = explode(',',Mage::getStoreConfig('payment/cashondelivery/disallowedpincodes'));
+				//if($data['method']=='cashondelivery'){
+					$non_servicable_pincodes = explode(',',Mage::getStoreConfig('payment/general/disallowedpincodes'));
 					$current_pin = $this->getOnepage()->getQuote()->getShippingAddress()->getPostcode();
 					if(in_array($current_pin,$non_servicable_pincodes)){
 						$result['error'] = $this->__('Sorry! Cash on delivery method is not available on %s Pincode',$current_pin);
 					}
-				}
+				//}
 			}
             // get section and redirect data
             $redirectUrl = $this->getOnepage()->getQuote()->getPayment()->getCheckoutRedirectUrl();
